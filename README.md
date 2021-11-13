@@ -31,8 +31,8 @@ Here's a list of all the NBT that an Omnitrix can have:
     - `hide`: (Optional) When set to true, the alien will never be showed while cyclying with the Omnitrix.  
         (The alien order is the same as in this array, except for the first alien, that will be the last one. This is mostly like a bug but that's how it works)  
 - `unlock`:  
-    `unlockables`: An array of objects:  
-        `alien`: The alien number ID to be unlocked.  
-        `aliens`: The sequence to be followed in order to unlock this alien. Must be an array with four alien ID numbers.  
-        `msg`: (Optional) A stringfied json object to be show in chat when unlocking this alien.  
+  - `unlockables`: An array of objects:  
+    - `alien`: The alien number ID to be unlocked.  
+    - `aliens`: The sequence to be followed in order to unlock this alien. Must be an array with four alien ID numbers.  
+    - `msg`: (Optional) A stringfied json object to be show in chat when unlocking this alien.  
 (Actually scanning needs to be hardcoded)
