@@ -1,0 +1,3 @@
+title @s[scores={bentenc.score1=0}] actionbar {"translate":"bentenc.abilities.electric_absorption","color":"#d4fa12"}
+title @s[scores={bentenc.score1=1..}] actionbar ["",{"translate":"bentenc.abilities.electric_absorption","color":"#d4fa12"},{"text": " - ","color":"#7ca80d"},{"score":{"name":"@s","objective":"bentenc.score1"},"color":"#d4fa12"}]
+execute if predicate glcore:random/10 run function bentenc:aliens/buzzshock/abilities/energy_absorption

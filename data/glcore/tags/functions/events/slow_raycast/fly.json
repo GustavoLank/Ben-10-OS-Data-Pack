@@ -1,0 +1,6 @@
+{
+    "_comment": "Runs when a slow raycast entity is flying, mainly useful for displaying particles",
+    "values": [
+        "bentenc:slow_raycast/fly"
+    ]
+}

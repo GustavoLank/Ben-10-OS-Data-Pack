@@ -1,0 +1,7 @@
+{
+    "_comment": [
+        "Runs every tick when Upgrade upgraded something.",
+        "Can be used to make custom upgradable things."
+    ],
+    "values": []
+}

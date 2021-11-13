@@ -1,0 +1,3 @@
+title @s[scores={bentenc.cooldow2=0}] actionbar ["",{"translate":"bentenc.abilities.sleeping_spores","color":"#667234"}]
+title @s[scores={bentenc.cooldow2=1..}] actionbar ["",{"translate":"bentenc.abilities.sleeping_spores","color":"#515b2a"},{"text":" - ", "color":"#667234"},{"score":{"name": "@s","objective": "bentenc.cooldow2"},"color":"#515b2a"}]
+execute if entity @s[scores={glcore.click=1..,bentenc.cooldow2=0}] run function bentenc:aliens/swampfire/abilities/sleeping_spores

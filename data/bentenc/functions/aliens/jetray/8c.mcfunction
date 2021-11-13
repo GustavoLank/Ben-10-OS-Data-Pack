@@ -1,0 +1,2 @@
+execute positioned ~ ~-2 ~ as @e[type=#glcore:living,distance=..2,limit=1,sort=nearest] positioned ~ ~2 ~ unless score @s glcore.id = @p glcore.id unless score @s bentenc.carryID matches 1.. run function bentenc:aliens/jetray/c_
+scoreboard players set @s glcore.click 0

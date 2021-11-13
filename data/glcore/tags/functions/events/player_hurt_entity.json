@@ -1,0 +1,9 @@
+{
+    "_comment": [
+        "Runs when a player hit a mob (triggers for arrows too)",
+        "Runs as the hurt entity, and at the player who hit it, the player also has the tag `glcore.hd.player`"
+    ],
+    "values": [
+        "glcore:examples/wither_sword_hit"
+    ]
+}

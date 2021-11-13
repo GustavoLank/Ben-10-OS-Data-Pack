@@ -1,0 +1,1 @@
+summon wandering_trader ~ ~ ~ {Passengers:[{id:"minecraft:armor_stand",Invisible:1b,Silent:1b,Invulnerable:1b,ArmorItems:[{},{},{},{id:"minecraft:knowledge_book",Count:1b,tag:{CustomModelData:80179}}]}],NoAI:1b,ActiveEffects:[{Id:11b,Amplifier:127b,Duration:999999},{Id:14b,Amplifier:1b,Duration:999999}]}

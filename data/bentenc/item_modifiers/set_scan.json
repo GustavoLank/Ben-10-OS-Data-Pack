@@ -1,0 +1,28 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:-106b}].tag.bentenc.scan_cmd",
+                "target": "CustomModelData",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:-106b}].tag.bentenc.scan_display",
+                "target": "display",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{bentenc:{is_scanning:1b,is_cycling:0b}}"
+    }
+]

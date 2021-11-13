@@ -1,0 +1,6 @@
+{
+    "_comment": "Runs as every Marker entity",
+    "values": [
+        "bentenc:markers"
+    ]
+}

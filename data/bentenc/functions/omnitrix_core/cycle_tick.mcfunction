@@ -1,0 +1,2 @@
+function #bentenc:events/omnitrix/cycle/tick
+execute if entity @s[scores={glcore.click=1..},predicate=glcore:sneaking] unless score @s bentenc.alienO matches 0 run function bentenc:omnitrix_core/try_to_transform

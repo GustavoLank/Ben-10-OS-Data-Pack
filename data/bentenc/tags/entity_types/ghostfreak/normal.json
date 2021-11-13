@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:cow",
+        "minecraft:sheep",
+        "minecraft:donkey",
+        "minecraft:mule",
+        "minecraft:mooshroom",
+        "minecraft:panda",
+        "minecraft:villager",
+        "minecraft:wandering_trader"
+    ]
+}

@@ -1,0 +1,1 @@
+scoreboard players operation #click glcore = @s glcore.click

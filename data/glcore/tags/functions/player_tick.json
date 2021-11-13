@@ -1,0 +1,6 @@
+{
+    "_comment": "Runs as every player after all the GlCore commands",
+    "values": [
+        "bentenc:players"
+    ]
+}

@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^.25 run summon minecraft:fireball ~ ~1 ~ {Motion:[0.0d,-10.0d,0.0d],ExplosionPower:3}

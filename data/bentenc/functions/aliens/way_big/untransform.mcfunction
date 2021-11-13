@@ -1,0 +1,1 @@
+execute if score @s bentenc.skin matches 0 run function bentenc:aliens/way_big/skins/0/untransform

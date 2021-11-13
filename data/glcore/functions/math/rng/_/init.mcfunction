@@ -1,0 +1,1 @@
+execute unless score #lcg glcore = #lcg glcore run function glcore:math/rng/_/uuid_reset

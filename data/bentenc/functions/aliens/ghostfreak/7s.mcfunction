@@ -1,0 +1,3 @@
+title @s[scores={bentenc.cooldow1=0}] actionbar {"translate":"bentenc.abilities.tentacles","color":"#b2a8a9"}
+title @s[scores={bentenc.cooldow1=1..}] actionbar ["",{"translate":"bentenc.abilities.tentacles","color":"#80797a"},{"text":" - ","color":"#b2a8a9"},{"score":{"name": "@s","objective": "bentenc.cooldow1"},"color":"#80797a"}]
+execute if entity @s[scores={glcore.click=1..,bentenc.cooldow1=0}] run scoreboard players set @s bentenc.score2 100

@@ -1,0 +1,46 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:103b}].tag.bentenc",
+                "target": "bentenc",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:103b}].tag.bentenc.playlist[0].aliens",
+                "target": "bentenc.select_playlist",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:103b}].tag.bentenc.recharge_cmd",
+                "target": "CustomModelData",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:103b}].tag.bentenc.recharge_display",
+                "target": "display",
+                "op": "replace"
+            }
+        ]
+    }
+]

@@ -1,0 +1,2 @@
+execute unless predicate glcore:armor/blank_head_slot run tellraw @s {"translate":"bentenc.transformation_fail","color":"dark_red","bold":true}
+execute if predicate glcore:armor/blank_head_slot run function bentenc:omnitrix_core/transform

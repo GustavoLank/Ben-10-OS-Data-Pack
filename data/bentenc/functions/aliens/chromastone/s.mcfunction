@@ -1,0 +1,6 @@
+item replace entity @s[scores={bentenc.score1=1}] weapon.mainhand with diamond_sword{CustomModelData:80000,bentenc.ability:1b,bentenc.alien:1b,HideFlags:63,Unbreakable:1b,display:{Name:'{"text":""}'}}
+item replace entity @s[scores={bentenc.score1=2}] weapon.mainhand with diamond_pickaxe{CustomModelData:80000,bentenc.ability:1b,bentenc.alien:1b,HideFlags:63,Unbreakable:1b,display:{Name:'{"text":""}'}}
+item replace entity @s[scores={bentenc.score1=3}] weapon.mainhand with diamond_shovel{CustomModelData:80000,bentenc.ability:1b,bentenc.alien:1b,HideFlags:63,Unbreakable:1b,display:{Name:'{"text":""}'}}
+item replace entity @s[scores={bentenc.score1=4}] weapon.mainhand with diamond_axe{CustomModelData:80000,bentenc.ability:1b,bentenc.alien:1b,HideFlags:63,Unbreakable:1b,display:{Name:'{"text":""}'}}
+item replace entity @s[scores={bentenc.score1=5}] weapon.mainhand with diamond_hoe{CustomModelData:80000,bentenc.ability:1b,bentenc.alien:1b,HideFlags:63,Unbreakable:1b,display:{Name:'{"text":""}'}}
+item replace entity @s[scores={bentenc.score1=6}] weapon.mainhand with endermite_spawn_egg{CustomModelData:80000,bentenc.ability:1b,bentenc.alien:1b,EntityTag:{id:"minecraft:armor_stand",Rotation:[0.0f,0.0f],Silent:1b,Small:1b,Marker:1b,Tags:["bentenc.diamondhead.free_build"],Invisible:1b,DisabledSlots:4144959,Invulnerable:1b},HideFlags:63,display:{Name:'{"text":""}'}}

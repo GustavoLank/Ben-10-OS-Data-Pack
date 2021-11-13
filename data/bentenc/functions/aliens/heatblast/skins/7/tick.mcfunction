@@ -1,0 +1,1 @@
+scoreboard players add @s bentenc.headcmd 104

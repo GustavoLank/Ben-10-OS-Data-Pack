@@ -1,0 +1,1 @@
+effect give @s[predicate=bentenc:fall] minecraft:jump_boost 1 255 true

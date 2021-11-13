@@ -1,0 +1,1 @@
+execute if entity @s[tag=!bentenc.omnitrix.summoned,predicate=bentenc:can_summon_omnitrix,advancements={minecraft:story/mine_diamond=true}] unless entity @e[type=armor_stand,tag=bentenc.omnitrix_pod,distance=..200] run function bentenc:cheats/summon/prototype_omnitrix

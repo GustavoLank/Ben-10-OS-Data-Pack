@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ water rotated ~ 0 run function bentenc:abilities/_/water_running

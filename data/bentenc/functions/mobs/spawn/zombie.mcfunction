@@ -1,0 +1,3 @@
+execute if predicate glcore:structure/in_village unless entity @e[type=zombie,tag=bentenc.mobs.mummy,distance=..200] if entity @a[predicate=bentenc:holding_omnitrix,distance=..100] if predicate glcore:random/50 run function bentenc:mobs/mummy/summon
+execute unless entity @s[predicate=!glcore:biome/gravelly_mountains,predicate=!glcore:biome/modified_gravelly_mountains,predicate=!glcore:biome/mountains] unless entity @e[type=zombie,tag=bentenc.mobs.viktor,distance=..200] if entity @a[predicate=bentenc:holding_omnitrix,distance=..100] if predicate glcore:random/50 run function bentenc:mobs/viktor/summon
+tag @s add bentenc.mobs.checked

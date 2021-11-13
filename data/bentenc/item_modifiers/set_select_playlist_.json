@@ -1,0 +1,13 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:103b}].tag.bentenc.playlist[0].aliens",
+                "target": "bentenc.select_playlist",
+                "op": "replace"
+            }
+        ]
+    }
+]

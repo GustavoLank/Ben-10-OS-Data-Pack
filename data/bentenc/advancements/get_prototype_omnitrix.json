@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{CustomModelData:80006}"
+            },    
+            "title": {
+                "translate": "bentenc.advancements.and_then_there_were_10.title"
+            },
+            "description": {
+                "translate": "bentenc.advancements.and_then_there_were_10.desc"
+            },
+            "frame": "goal",
+            "announce_to_chat": true
+        },
+        "parent": "bentenc:root",
+        "criteria": {
+            "requirement": {
+                "trigger": "minecraft:inventory_changed",
+                "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:carrot_on_a_stick"],
+                        "nbt": "{bentenc:{omnitrix:1}}"
+                    }
+                ]
+            }
+        }
+    }
+}

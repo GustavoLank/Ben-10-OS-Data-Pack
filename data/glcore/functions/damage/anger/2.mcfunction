@@ -1,0 +1,4 @@
+execute if entity @s[type=!#glcore:undead] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["bentenc.damage.aec"], Duration: 10, DurationOnUse: 0, WaitTime: 0, Particle: "block air", Effects:[{Id: 7b, Duration: 10, Amplifier: 31b, ShowParticles:0b}], Radius: 0.25f, RadiusOnUse: 0.0f, RadiusPerTick: 0.0f}
+execute if entity @s[type=#glcore:undead] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ["bentenc.damage.aec"], Duration: 10, DurationOnUse: 0, WaitTime: 0, Particle: "block air", Effects:[{Id: 6b, Duration: 10, Amplifier: 31b, ShowParticles:0b}], Radius: 0.25f, RadiusOnUse: 0.0f, RadiusPerTick: 0.0f}
+execute at @a if score @s glcore.damageID = @p glcore.id run data modify entity @e[type=minecraft:area_effect_cloud,tag=bentenc.damage.aec,limit=1,sort=nearest] Owner set from entity @p UUID
+#tellraw @a {"nbt":"Owner","entity":"@e[type=minecraft:area_effect_cloud,tag=bentenc.damage.aec,limit=1,sort=nearest]"}

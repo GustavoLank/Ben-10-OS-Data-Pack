@@ -1,0 +1,1 @@
+kill @s[nbt={Item:{tag:{bentenc.alien:1b}}}]

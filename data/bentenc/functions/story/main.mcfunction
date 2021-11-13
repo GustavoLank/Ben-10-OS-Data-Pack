@@ -1,0 +1,1 @@
+execute if score @s bentenc.story matches 1 run function bentenc:story/secret_of_omnitrix/resolute

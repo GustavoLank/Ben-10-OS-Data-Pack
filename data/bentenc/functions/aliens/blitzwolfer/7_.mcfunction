@@ -1,0 +1,2 @@
+title @s actionbar ["",{"translate":"bentenc.abilities.sniff","color":"#6b7e8e"}]
+execute if entity @s[scores={glcore.click=1..},predicate=glcore:random/75] run effect give @e[type=#glcore:living,distance=0.3..25] glowing 1 0 true

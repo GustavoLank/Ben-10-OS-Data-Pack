@@ -1,0 +1,2 @@
+title @s actionbar ["",{"translate":"bentenc.abilities.increase_size","color":"#9a6a36"}]
+execute if score @s glcore.click matches 1.. if block ~ ~ ~ #glcore:can_replace if block ~ ~1 ~ #glcore:can_replace if block ~ ~2 ~ #glcore:can_replace if block ~ ~3 ~ #glcore:can_replace if block ~ ~4 ~ #glcore:can_replace if block ~ ~5 ~ #glcore:can_replace run function bentenc:aliens/humungousaur/grow/s

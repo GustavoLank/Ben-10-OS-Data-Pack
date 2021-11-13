@@ -1,0 +1,6 @@
+{
+    "_comment": "Runs as every item",
+    "values": [
+        "bentenc:items"
+    ]
+}

@@ -1,0 +1,1 @@
+execute unless entity @a[scores={bentenc.story=1..}] run scoreboard players set @s bentenc.story 1

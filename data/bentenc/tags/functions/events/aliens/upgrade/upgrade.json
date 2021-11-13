@@ -1,0 +1,15 @@
+{
+    "_comment": [
+        "Runs when Upgrade hasn't upgraded anything and is sneaking in the seventh slot",
+        "Can be used to make custom upgradable things.",
+
+        "Example Funtion Code: ",
+        "`execute if entity @e[type=mod:custom_entity,tag=!bentenc.ignore_upgrade,distance=..3] run function namespace:upgrade/upgrade_custom_entity´",
+        "`execute if block ~ ~-1 ~ mod:custom_block run function namespace:upgrade/upgrade_custom_block`",
+
+        "The code above will ignore entities with the `bentenc.ignore_upgrade` tag.",
+        "You can save some entity NBT (Health, Attributes, Tags, CustomName and CustomNameVisible) using the `function bentenc:aliens/upgrade/save_entity_data` function.",
+        "Remember to kill the entity (preferably teleport it to the void, so there's no particles and drops) or remove the block."
+    ],
+    "values": []
+}

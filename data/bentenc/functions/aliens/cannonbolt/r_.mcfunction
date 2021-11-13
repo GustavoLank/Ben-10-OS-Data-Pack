@@ -1,0 +1,2 @@
+execute if score @p bentenc.skin matches 0..2 run function bentenc:aliens/cannonbolt/skins/0/running_damage
+execute if score @p bentenc.skin matches 7 run function bentenc:aliens/cannonbolt/skins/7/running_damage

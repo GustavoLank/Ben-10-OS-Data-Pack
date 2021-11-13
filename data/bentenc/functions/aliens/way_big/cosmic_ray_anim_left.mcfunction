@@ -1,0 +1,1 @@
+execute if score @p bentenc.skin matches 0..3 run function bentenc:aliens/way_big/skins/0/cosmic_ray_anim_left

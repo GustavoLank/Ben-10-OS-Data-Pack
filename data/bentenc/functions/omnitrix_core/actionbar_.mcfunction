@@ -1,0 +1,2 @@
+execute unless entity @s[tag=bentenc.master_control] run function bentenc:omnitrix_core/actionbar
+execute if entity @s[tag=bentenc.master_control,scores={glcore.sis=9}] unless score @s bentenc.alienO matches -2 run function bentenc:omnitrix_core/master_control/actionbar

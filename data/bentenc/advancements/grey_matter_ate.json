@@ -1,0 +1,12 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+            "item": {
+                "tag": "bentenc:greymatter_food"
+                }
+            }
+        }
+    }
+}

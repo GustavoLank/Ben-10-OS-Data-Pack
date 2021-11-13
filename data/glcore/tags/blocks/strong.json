@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:bedrock",
+		"minecraft:barrier",
+		"minecraft:command_block",
+		"minecraft:repeating_command_block",
+		"minecraft:chain_command_block",
+		"minecraft:obsidian",
+		"minecraft:end_portal_frame",
+		"minecraft:ender_chest"
+	]
+}

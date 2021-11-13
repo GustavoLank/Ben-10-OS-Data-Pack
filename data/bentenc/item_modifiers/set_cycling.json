@@ -1,0 +1,6 @@
+[
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{bentenc:{is_cycling:1b,is_scanning:0b}}"
+    }
+]

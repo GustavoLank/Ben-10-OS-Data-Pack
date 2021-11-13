@@ -1,0 +1,9 @@
+{
+    "_comment": [
+        "Called when an Omnitrix timeout.",
+        "When cancelled, the player will not timeout, will stay as an alien and no scores/tags will be modified.",
+        "This tag will still be called in the next tick even after cancelling it.",
+        "To prevent this, you can either give the player the `bentenc.no_timeout` tag, or set it's `bentenc.time` to something else than 1."
+    ],
+    "values": []
+}

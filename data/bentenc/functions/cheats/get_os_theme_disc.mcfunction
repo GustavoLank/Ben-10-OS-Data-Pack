@@ -1,0 +1,1 @@
+give @s music_disc_far{bentenc.music_disc:1b,bentenc_music_disc:1,bentenc_music_disc_time:1340,HideFlags:32,display:{Name:'{"translate":"item.minecraft.music_disc_far","color":"#a4eb21","italic":false}',Lore:['{"translate":"bentenc.music_disc.os_theme","color":"gray","italic":false}']}} 1

@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+        "type": "minecraft:storage",
+        "source": "gl:bentenc"
+    },
+    "ops": [
+        {
+            "source": "playlist",
+            "target": "bentenc.playlist[0]",
+            "op": "replace"
+        }
+    ]
+}

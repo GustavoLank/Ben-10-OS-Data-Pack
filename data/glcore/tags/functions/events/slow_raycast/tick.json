@@ -1,0 +1,6 @@
+{
+    "_comment": "Runs every tick as slow raycast entities",
+    "values": [
+        "bentenc:slow_raycast/tick"
+    ]
+}

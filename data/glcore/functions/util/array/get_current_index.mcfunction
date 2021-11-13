@@ -1,0 +1,2 @@
+# Set `$array.current_index glcore` to the length of `iterator.internal.in`. Will always be equal `$array.previous_length glcore`.
+execute store result score $array.current_length glcore run data get storage gl:array iterator.internal.in

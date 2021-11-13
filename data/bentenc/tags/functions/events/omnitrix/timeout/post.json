@@ -1,0 +1,8 @@
+{
+    "_comment": [
+        "Called when an Omnitrix timeout and if `#bentenc:events/omnitrix/timeout/pre` wasn't cancelled."
+    ],
+    "values": [
+        "bentenc:omnitrix/on_timeout"
+    ]
+}

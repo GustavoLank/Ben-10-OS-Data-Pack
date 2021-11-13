@@ -1,0 +1,6 @@
+{
+    "__comment": "Runs when a player transform back, not necessarily by timeout, but also when using Master Control.",
+    "values": [
+        "bentenc:omnitrix/untransform"
+    ]
+}

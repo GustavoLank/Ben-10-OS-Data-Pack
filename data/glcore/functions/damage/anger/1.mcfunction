@@ -1,0 +1,2 @@
+execute if score #anger_entities glcore.config matches 1 if entity @s[type=!player] if entity @a[gamemode=!creative,gamemode=!spectator,distance=..128] unless score @s glcore.damageID = @s glcore.id run function glcore:damage/anger/2
+scoreboard players set @s glcore.damageID 0

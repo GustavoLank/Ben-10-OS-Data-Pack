@@ -1,0 +1,2 @@
+scoreboard players add @s[x_rotation=-90..-25,scores={glcore.launch=0}] bentenc.score2 1
+execute if entity @s[x_rotation=-90..-25,scores={glcore.launch=0}] unless block ~ ~1 ~ water unless block ~ ~1 ~ kelp_plant unless block ~ ~1 ~ kelp unless block ~ ~1 ~ seagrass unless block ~ ~1 ~ tall_seagrass run function bentenc:fusions/heatjaws/launch

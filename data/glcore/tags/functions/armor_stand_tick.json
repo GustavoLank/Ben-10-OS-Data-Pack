@@ -1,0 +1,6 @@
+{
+    "_comment": "Runs as every armor stand after all the GlCore commands",
+    "values": [
+        "bentenc:armor_stand"
+    ]
+}

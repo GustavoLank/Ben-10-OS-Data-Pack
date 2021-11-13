@@ -1,0 +1,9 @@
+{
+    "_comment": [
+        "Runs before every other hit entity command",
+        "When cancelled, the entity hit will not be damaged in any way and the slow raycast entity will not be killed"
+    ],
+    "values": [
+        "bentenc:slow_raycast/on_hit_entity_pre"
+    ]
+}

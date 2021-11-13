@@ -1,0 +1,5 @@
+execute if data storage gl:bentenc secret_of_omnitrix.current_lines[1] store result score @s bentenc.lineTime run data get storage gl:bentenc secret_of_omnitrix.current_line.time
+execute if data storage gl:bentenc {secret_of_omnitrix:{current_line:{speaker:"player"}}} run tellraw @s [{"storage":"gl:bentenc","nbt":"secret_of_omnitrix.speakers[{name:\"player\"}].value","interpret":true},{"text":" "},{"storage":"gl:bentenc","nbt":"secret_of_omnitrix.current_line.text","interpret":true}]
+execute if data storage gl:bentenc {secret_of_omnitrix:{current_line:{speaker:"tetrax"}}} run tellraw @s [{"storage":"gl:bentenc","nbt":"secret_of_omnitrix.speakers[{name:\"tetrax\"}].value","interpret":true},{"text":" "},{"storage":"gl:bentenc","nbt":"secret_of_omnitrix.current_line.text","interpret":true}]
+data remove storage gl:bentenc secret_of_omnitrix.current_lines[0]
+execute if data storage gl:bentenc secret_of_omnitrix.current_lines[0] run data modify storage gl:bentenc secret_of_omnitrix.current_line set from storage gl:bentenc secret_of_omnitrix.current_lines[0]

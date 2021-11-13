@@ -1,0 +1,1 @@
+execute align xyz run summon marker ~.5 ~-1 ~.5 {Tags:["bentenc.frankenstrike.eletromagnetic"]}

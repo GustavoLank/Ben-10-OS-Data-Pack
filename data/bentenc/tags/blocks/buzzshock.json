@@ -1,0 +1,22 @@
+{
+    "values":[
+        "minecraft:redstone_wire",
+        "minecraft:redstone_block",
+        "minecraft:dispenser",
+        "minecraft:dropper",
+        "minecraft:piston",
+        "minecraft:sticky_piston",
+        "minecraft:note_block",
+        "minecraft:redstone_lamp",
+        "minecraft:trapped_chest",
+        "minecraft:hopper",
+        "minecraft:observer",
+        "minecraft:iron_door",
+        "minecraft:target",
+        "minecraft:powered_rail",
+        "minecraft:detector_rail",
+        "minecraft:activator_rail",
+        "minecraft:repeater",
+        "minecraft:comparator"
+    ]
+}

@@ -1,0 +1,1 @@
+execute at @a[tag=glcore.hd.player] if entity @p[nbt={SelectedItem:{tag:{Enchantments:[{id:"glcore:wither"}]}}}] run effect give @s wither 5

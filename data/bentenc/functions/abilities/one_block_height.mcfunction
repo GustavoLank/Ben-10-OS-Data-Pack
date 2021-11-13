@@ -1,0 +1,1 @@
+execute if predicate glcore:sprinting rotated ~ 0 unless block ~ ~-1 ~ #glcore:pass_through if block ~ ~1 ~ #glcore:pass_through if block ^ ^ ^1 #glcore:pass_through unless block ^ ^1 ^1 #glcore:pass_through run tp @s ^ ^ ^1

@@ -1,0 +1,2 @@
+execute if predicate glcore:sprinting rotated ~ 0 if block ^ ^ ^.5 #bentenc:pass_through unless block ^ ^1 ^.5 #glcore:pass_through run tp @s ^ ^ ^1.75
+execute if predicate glcore:sprinting rotated ~ 0 if block ^ ^ ^.5 #bentenc:pass_through if block ^ ^1 ^.5 #bentenc:pass_through run tp @s ^ ^ ^1.75

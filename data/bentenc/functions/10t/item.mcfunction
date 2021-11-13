@@ -1,0 +1,2 @@
+# Fix Broken Prototype 1.0
+execute if entity @s[nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{bentenc:{omnitrix:13}}}}] if block ~ ~-1 ~ #anvil if entity @e[type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{bentenc:{prototype_faceplate:1b}}}},distance=...5] run function bentenc:omnitrix/prototype/fix

@@ -1,0 +1,2 @@
+execute as @e[distance=..5,tag=bentenc.body_possessed,sort=nearest,nbt=!{ignited:1b}] if score @s bentenc.possesID = @p glcore.id run function bentenc:aliens/ghostfreak/leave_body_
+scoreboard players set @s bentenc.score1 0

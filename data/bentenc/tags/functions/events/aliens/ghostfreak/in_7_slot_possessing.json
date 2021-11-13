@@ -1,0 +1,7 @@
+{
+    "_comment": [
+        "Runs every tick as players whose selected slot is the eighth, are transformed into Ghostfreak and are possessing a mob.",
+        "When cancelled, default commands will not run."
+    ],
+    "values": []
+}

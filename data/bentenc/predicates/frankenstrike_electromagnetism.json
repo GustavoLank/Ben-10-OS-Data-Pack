@@ -1,0 +1,24 @@
+[
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            { "condition": "minecraft:location_check", "predicate": { "block": { "blocks": [ "minecraft:iron_block" ] } }, "offsetY": 1 , "offsetX": 1 },
+            { "condition": "minecraft:location_check", "predicate": { "block": { "blocks": [ "minecraft:iron_block" ] } }, "offsetY": 1 , "offsetX": -1 },
+            { "condition": "minecraft:location_check", "predicate": { "block": { "blocks": [ "minecraft:iron_block" ] } }, "offsetY": 1 , "offsetZ": 1 },
+            { "condition": "minecraft:location_check", "predicate": { "block": { "blocks": [ "minecraft:iron_block" ] } }, "offsetY": 1 , "offsetZ": -1 },
+            { "condition": "minecraft:location_check", "predicate": { "block": { "blocks": [ "minecraft:iron_block" ] } }, "offsetY": 0 , "offsetX": 1 },
+            { "condition": "minecraft:location_check", "predicate": { "block": { "blocks": [ "minecraft:iron_block" ] } }, "offsetY": 0 , "offsetX": -1 },
+            { "condition": "minecraft:location_check", "predicate": { "block": { "blocks": [ "minecraft:iron_block" ] } }, "offsetY": 0 , "offsetZ": 1 },
+            { "condition": "minecraft:location_check", "predicate": { "block": { "blocks": [ "minecraft:iron_block" ] } }, "offsetY": 0 , "offsetZ": -1 }
+        ]
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "flags": {
+                "is_sneaking": true
+            }
+        }
+    }
+]

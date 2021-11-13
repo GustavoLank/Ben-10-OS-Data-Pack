@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^2 run scoreboard players set @e[limit=1,sort=nearest,distance=..2,nbt={HurtTime:10s},type=#glcore:living] glcore.shock 15

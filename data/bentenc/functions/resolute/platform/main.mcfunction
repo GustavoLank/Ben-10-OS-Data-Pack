@@ -1,0 +1,4 @@
+execute positioned ~-3 ~ ~-3 if entity @e[type=wandering_trader,tag=bentenc.secret_of_omnitrix.tetrax_w,dx=5,dz=5,dy=2] if entity @a[dx=5,dz=5,dy=1,predicate=glcore:sneaking] positioned ~3 ~ ~3 as @e[type=armor_stand,tag=bentenc.resolute.platform,limit=25,sort=nearest,scores={bentenc.score1=0}] at @s run tp @s ~ ~.5 ~
+execute positioned ~-3 ~ ~-3 if entity @e[type=wandering_trader,tag=bentenc.secret_of_omnitrix.tetrax_w,dx=5,dz=5,dy=2] if entity @a[dx=5,dz=5,dy=1,predicate=glcore:sneaking] positioned ~3 ~ ~3 as @p at @s run tp @s ~ ~.2 ~
+execute positioned ~-3 ~ ~-3 if entity @e[type=wandering_trader,tag=bentenc.secret_of_omnitrix.tetrax_w,dx=5,dz=5,dy=2] if entity @a[dx=5,dz=5,dy=1,predicate=glcore:sneaking] run scoreboard players set @s[scores={bentenc.score1=0}] bentenc.score1 1
+execute if score @s bentenc.score1 matches 1..3 run function bentenc:resolute/platform/start

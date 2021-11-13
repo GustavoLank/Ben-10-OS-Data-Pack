@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+        "type": "minecraft:storage",
+        "source": "gl:bentenc"
+    },
+    "ops": [
+        {
+            "source": "brokenOmnitrix",
+            "target": "bentenc.broken_omnitrix",
+            "op": "replace"
+        }
+    ]
+}

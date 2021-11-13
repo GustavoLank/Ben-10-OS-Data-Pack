@@ -1,0 +1,6 @@
+{
+    "__comment": "Runs when a player used an Omnitrix to transform into an alien.",
+    "values": [
+        "bentenc:omnitrix/on_transform"
+    ]
+}

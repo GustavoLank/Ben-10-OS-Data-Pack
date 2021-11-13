@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "items": ["minecraft:carrot_on_a_stick"],
+                "nbt": "{bentenc:{is_omnitrix:1b,is_scanning:1b}}"
+            }
+        }
+    }
+}

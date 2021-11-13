@@ -1,0 +1,35 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:-106b}].tag.bentenc",
+                "target": "bentenc",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:-106b}].tag.display",
+                "target": "bentenc.default_display",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:-106b}].tag.display",
+                "target": "display",
+                "op": "replace"
+            }
+        ]
+    }
+]

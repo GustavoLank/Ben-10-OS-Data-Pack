@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:lava_and_fire" } }, "offsetY": 2 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:lava_and_fire" } }, "offsetY": -1 },
+
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:lava_and_fire" } }, "offsetX": 1 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:lava_and_fire" } }, "offsetX": -1 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:lava_and_fire" } }, "offsetZ": 1 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:lava_and_fire" } }, "offsetZ": -1 },
+
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:lava_and_fire" } }, "offsetY": 1 , "offsetX": 1 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:lava_and_fire" } }, "offsetY": 1 , "offsetX": -1 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:lava_and_fire" } }, "offsetY": 1 , "offsetZ": 1 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:lava_and_fire" } }, "offsetY": 1 , "offsetZ": -1 }
+    ]
+}

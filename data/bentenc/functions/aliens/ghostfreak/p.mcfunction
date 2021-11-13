@@ -1,0 +1,34 @@
+scoreboard players operation @s bentenc.possesID = @p[tag=bentenc.possessing] glcore.id
+execute if entity @s[type=#bentenc:ghostfreak/normal] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 1
+execute if entity @s[type=chicken] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 2
+execute if entity @s[type=#bentenc:ghostfreak/fast] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 3
+execute if entity @s[type=#bentenc:ghostfreak/zombie,nbt=!{IsBaby:1b}] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 4
+execute if entity @s[type=#bentenc:ghostfreak/flying] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 5
+execute if entity @s[type=blaze] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 6
+execute if entity @s[type=#bentenc:ghostfreak/spider] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 7
+execute if entity @s[type=#bentenc:ghostfreak/aquatic] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 8
+execute if entity @s[type=drowned] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 9
+execute if entity @s[type=husk] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 10
+execute if entity @s[type=#bentenc:ghostfreak/skeleton] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 11
+execute if entity @s[type=guardian] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 12
+execute if entity @s[type=enderman] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 13
+execute if entity @s[type=#bentenc:ghostfreak/small] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 14
+execute if entity @s[type=evoker] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 15
+execute if entity @s[type=vindicator] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 16
+execute if entity @s[type=iron_golem] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 17
+execute if entity @s[type=#bentenc:ghostfreak/llama] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 18
+execute if entity @s[type=slime] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 19
+execute if entity @s[type=magma_cube] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 20
+execute if entity @s[type=phantom] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 21
+execute if entity @s[type=polar_bear] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 22
+execute if entity @s[type=rabbit] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 23
+execute if entity @s[type=ravager] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 24
+execute if entity @s[type=shulker] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 25
+execute if entity @s[type=vex] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 26
+execute if entity @s[type=witch] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 27
+execute if entity @s[type=wither_skeleton] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 28
+execute if entity @s[type=#bentenc:ghostfreak/wolf_and_zombified_piglin] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 29
+execute if entity @s[type=creeper] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 30
+execute if entity @s[type=#bentenc:ghostfreak/zombie,nbt={IsBaby:1b}] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 31
+execute if entity @s[type=ghast] run scoreboard players set @p[tag=bentenc.possessing] bentenc.score1 32
+execute if score @p[tag=bentenc.possessing] bentenc.score1 matches 1.. run function bentenc:aliens/ghostfreak/pd

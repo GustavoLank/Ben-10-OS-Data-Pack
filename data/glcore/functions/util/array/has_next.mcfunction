@@ -1,0 +1,1 @@
+execute store success score $array.has_next glcore if data storage gl:array iterator.in[1]

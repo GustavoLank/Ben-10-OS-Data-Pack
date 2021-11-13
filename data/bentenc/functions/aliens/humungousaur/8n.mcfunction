@@ -1,0 +1,2 @@
+title @s actionbar ["",{"translate":"bentenc.abilities.shockwave","color":"#9a6a36"}]
+execute if score @s glcore.click matches 1.. unless block ~ ~-1 ~ #glcore:pass_through run function bentenc:abilities/shockwave

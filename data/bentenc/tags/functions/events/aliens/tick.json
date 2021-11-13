@@ -1,0 +1,10 @@
+{
+    "_comment": [
+        "Runs every tick as a player whose score `bentenc.alien` is greater than 0.",
+        "Can be used to make custom aliens.",
+        
+        "Example Funtion Code: ",
+        "`execute if score @s bentenc.alien matches 'alien_id' run function namespace:aliens/custom_alien/tick´"
+    ],
+    "values": []
+}

@@ -1,0 +1,3 @@
+title @s[scores={bentenc.cooldow2=0}] actionbar {"translate":"bentenc.abilities.fire_ball","color":"#990d00"}
+title @s[scores={bentenc.cooldow2=1..}] actionbar ["",{"translate":"bentenc.abilities.fire_ball","color":"#4d0600"},{"text":" - ","color":"#740a00"},{"score":{"name": "@s","objective": "bentenc.cooldow2"},"color":"#4d0600"}]
+execute if entity @s[scores={glcore.click=1..,bentenc.cooldow2=0}] run function bentenc:aliens/heatblast/6sc

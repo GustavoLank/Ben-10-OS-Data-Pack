@@ -1,0 +1,14 @@
+{
+    "values": [
+		"#minecraft:leaves",
+		"minecraft:grass",
+		"#minecraft:ice",
+		"#glcore:glass",
+		"minecraft:snow_block",
+		"minecraft:snow",
+		"minecraft:powder_snow",
+		"#minecraft:carpets",
+		"#minecraft:corals",
+		"#glcore:can_replace"
+	]
+}

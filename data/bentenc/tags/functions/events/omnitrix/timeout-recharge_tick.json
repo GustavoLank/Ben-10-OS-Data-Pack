@@ -1,0 +1,6 @@
+{
+    "__comment": "Runs every tick as players that are either recharging or transformed.",
+    "values": [
+        "bentenc:omnitrix/timeout-recharge_tick"
+    ]
+}

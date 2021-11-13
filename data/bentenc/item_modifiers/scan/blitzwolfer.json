@@ -1,0 +1,42 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gl:bentenc"
+        },
+        "ops": [
+            {
+                "source": "false",
+                "target": "bentenc.playlist[{aliens:[{alien:13,locked:true}]}].aliens[{alien:13,locked:true}].locked",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:-106b}].tag.bentenc.default_cmd",
+                "target": "CustomModelData",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "source": "Inventory[{Slot:-106b}].tag.bentenc.default_display",
+                "target": "display",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{bentenc:{is_scanning:0b,is_cycling:0b}}"
+    }
+]

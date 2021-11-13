@@ -1,0 +1,6 @@
+{
+    "__comment": "Runs when a player cycle using an Omnitrix. Won't run if the player just started cycling.",
+    "values": [
+        "bentenc:omnitrix/cycle"
+    ]
+}

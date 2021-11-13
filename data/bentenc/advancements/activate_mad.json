@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Inventory:[{Slot:-106b,id:\"minecraft:carrot_on_a_stick\",tag:{bentenc:{omnitrix:1}}}]}"
+                },
+                "damage": {
+                    "taken": {
+                        "min": 15,
+                        "max": 1024
+                    },
+                    "type": {
+                        "is_explosion": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bentenc:omnitrix/prototype/activate_mad"
+    }
+}

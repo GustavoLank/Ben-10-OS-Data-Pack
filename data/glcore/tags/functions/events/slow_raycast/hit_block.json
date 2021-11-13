@@ -1,0 +1,9 @@
+{
+    "_comment": [
+        "Runs as slow raycast entity when it hits a block. `^ ^ ^.25` is the block the entity hit",
+        "When cancelled, the entity will not be killed"
+    ],
+    "values": [
+        "bentenc:slow_raycast/on_hit_block"
+    ]
+}

@@ -1,0 +1,58 @@
+Omnitrices:
+prototype 1.0: 1
+prototype 2.0: 2
+recalibrated: 3
+Albedo's recalibrated: 4
+ultimatrix: 5
+Albedo's ultimatrix: 6
+ov omnitrix: 7
+Albedo's ov omnitrix: 8
+Albedo's recreated ultimatrix: 9
+ben 10k os omnitrix: 10
+ben 10k ua omnitrix: 11
+biomnitrix: 12
+broken prototype omnitrix: 13
+
+Aliens:
+Wildmutt: 1
+Four Arms: 2
+Grey Matter: 3
+XLR8: 4
+Upgrade: 5
+Diamondhead: 6
+Ripjaws: 7
+Stinkfly: 8
+Ghostfreak: 9
+Heatblast: 10
+Cannonbolt: 11
+Wildvine: 12
+Blitzwolfer: 13
+Snare-oh: 14
+Frankenstrike: 15
+Upchuck: 16
+Ditto: 17
+Eye Guy: 18
+Way Big: 19
+Feedback: 20
+Arctiguana: 21
+Buzzshock: 22
+Spitter: 23
+Goop: 24
+Swampfire: 25
+Chromastone: 26
+
+Humungousaur: 28
+
+Jetray: 30
+
+
+
+Alien skins:
+Prototype 1.0/Default: 0
+Prototype 1.0: 1
+Prototype 2.0: 2
+UAF: 3
+Albedo's UAF: 4
+OV: 5
+Albedo's OV: 6
+ben 10k OS: 7

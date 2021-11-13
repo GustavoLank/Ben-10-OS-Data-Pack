@@ -1,0 +1,8 @@
+{
+  "values":[
+    "#glcore:neutral",
+    "#glcore:passive",
+    "#glcore:hostiles",
+    "minecraft:player"
+  ]
+}

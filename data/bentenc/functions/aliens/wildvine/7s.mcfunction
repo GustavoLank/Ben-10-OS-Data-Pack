@@ -1,0 +1,3 @@
+title @s[scores={bentenc.cooldow1=0}] actionbar ["",{"translate":"bentenc.abilities.explosive_fruits","color":"#68ad53"}]
+title @s[scores={bentenc.cooldow1=1..}] actionbar ["",{"translate":"bentenc.abilities.explosive_fruits","color":"#367440"},{"text":" - ","color":"#68ad53"},{"score":{"name": "@s","objective": "bentenc.cooldow1"},"color":"#367440"}]
+execute if entity @s[scores={glcore.click=1..,bentenc.cooldow1=0}] run function bentenc:aliens/wildvine/7sc

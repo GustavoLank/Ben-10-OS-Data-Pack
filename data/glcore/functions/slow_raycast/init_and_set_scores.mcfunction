@@ -1,0 +1,2 @@
+function glcore:slow_raycast/set_scores
+function glcore:slow_raycast/init

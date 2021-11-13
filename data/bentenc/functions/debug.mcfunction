@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=bentenc.player_data] run particle dust 0.625 1 0 .5 ~ ~.25 ~ 0 0 0 0 1 force @s

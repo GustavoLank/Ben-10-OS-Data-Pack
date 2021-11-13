@@ -1,0 +1,2 @@
+execute if data entity @s Inventory[{Slot:-106b}].tag.bentenc.playlist[{aliens:[{alien:15,locked:true}]}] run function bentenc:omnitrix/prototype/scan/viktor
+advancement revoke @s only bentenc:viktor_hit_player

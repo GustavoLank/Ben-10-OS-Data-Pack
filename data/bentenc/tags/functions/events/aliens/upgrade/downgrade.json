@@ -1,0 +1,12 @@
+{
+    "_comment": [
+        "Runs when Upgrade tries to downgrade (right-click in eighth slot).",
+
+        "Example Funtion Code: ",
+        "`execute if score @s bentenc.score1 matches 'id' run function namespace:upgrade/downgrade_custom_entity`",
+
+        "Remember to load the entity nbt saved using the `function bentenc:aliens/upgrade/load_entity_data` function if you did so.",
+        "Also remember to set player's `bentenc.score1` to 0."
+    ],
+    "values": []
+}

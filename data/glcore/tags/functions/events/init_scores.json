@@ -1,0 +1,6 @@
+{
+    "_comment": "Runs once as every player",
+    "values": [
+        "bentenc:init"
+    ]
+}

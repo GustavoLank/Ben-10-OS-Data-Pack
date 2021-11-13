@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:climbable" } }, "offsetY": 2 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:climbable" } }, "offsetY": 1 , "offsetX": 1 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:climbable" } }, "offsetY": 1 , "offsetX": -1 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:climbable" } }, "offsetY": 1 , "offsetZ": 1 },
+        { "condition": "minecraft:location_check", "predicate": { "block": { "tag": "bentenc:climbable" } }, "offsetY": 1 , "offsetZ": -1 }
+    ]
+}

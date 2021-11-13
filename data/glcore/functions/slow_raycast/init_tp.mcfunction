@@ -1,0 +1,2 @@
+execute if entity @s[tag=!glcore.src.onlyFaceY,tag=!glcore.src.leftHand,tag=!glcore.src.rightHand] as @p[distance=..3,sort=nearest] at @s anchored eyes positioned ^ ^ ^1 run tp @e[type=#glcore:slow_raycast,tag=glcore.src,tag=!glcore.src.ready,distance=..3,limit=1,sort=nearest] ~ ~ ~ ~ ~
+execute if entity @s[tag=glcore.src.onlyFaceY] as @p[distance=..3,sort=nearest] at @s anchored eyes positioned ^ ^ ^1 rotated ~ 0 run tp @e[type=#glcore:slow_raycast,tag=glcore.src,tag=!glcore.src.ready,distance=..3,limit=1,sort=nearest] ~ ~ ~ ~ ~

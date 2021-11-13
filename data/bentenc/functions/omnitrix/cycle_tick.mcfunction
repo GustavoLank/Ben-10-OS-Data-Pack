@@ -1,0 +1,1 @@
+execute if score @s bentenc.omnitrix matches 1 run function bentenc:omnitrix/prototype/wait

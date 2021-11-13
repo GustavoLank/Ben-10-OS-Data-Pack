@@ -1,0 +1,6 @@
+{
+    "values": [
+    	"#rx.playerdb:load",
+        "#glcore:load"
+    ]
+}

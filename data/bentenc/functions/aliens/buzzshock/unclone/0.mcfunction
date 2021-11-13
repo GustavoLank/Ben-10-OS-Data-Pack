@@ -1,0 +1,1 @@
+execute as @e[limit=1,type=wolf,tag=bentenc.buzzshock.clone,sort=nearest,distance=..1] if score @s glcore.id = @p glcore.id run function bentenc:aliens/buzzshock/unclone/1

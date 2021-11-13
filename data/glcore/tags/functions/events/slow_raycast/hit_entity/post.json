@@ -1,0 +1,8 @@
+{
+    "_comment": [
+        "Runs after `#glcore:events/slow_raycast/hit_entity/pre` if it wasn't canceled."
+    ],
+    "values": [
+        "bentenc:slow_raycast/on_hit_entity"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "_comment": [
+        "Called when an Omnitrix recharge and if `#bentenc:events/omnitrix/recharge/pre` wasn't cancelled."
+    ],
+    "values": [
+        "bentenc:omnitrix/on_recharge"
+    ]
+}

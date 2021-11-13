@@ -1,0 +1,6 @@
+{
+    "__comment": "Runs every tick when a player is cycling an Omnitrix.",
+    "values": [
+        "bentenc:omnitrix/cycle_tick"
+    ]
+}

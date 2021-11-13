@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^2 run data modify entity @e[limit=1,sort=nearest,distance=..2,nbt={HurtTime:10s},type=#glcore:living] Motion[1] set value .75d

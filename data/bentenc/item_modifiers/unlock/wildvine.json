@@ -1,0 +1,16 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gl:bentenc"
+        },
+        "ops": [
+            {
+                "source": "false",
+                "target": "bentenc.playlist[{aliens:[{alien:12,locked:true}]}].aliens[{alien:12,locked:true}].locked",
+                "op": "replace"
+            }
+        ]
+    }
+]

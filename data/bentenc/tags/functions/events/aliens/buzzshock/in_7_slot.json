@@ -1,0 +1,7 @@
+{
+    "_comment": [
+        "Runs every tick as players whose selected slot is the eighth and are transformed into Buzzshock.",
+        "When cancelled, default commands will not run."
+    ],
+    "values": []
+}

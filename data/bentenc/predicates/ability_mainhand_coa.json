@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": ["minecraft:carrot_on_a_stick"],
+                "nbt": "{bentenc.ability:1b}"
+            }
+        }
+    }
+}

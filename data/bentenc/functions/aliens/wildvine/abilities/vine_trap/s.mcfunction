@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #glcore:pass_through run particle block acacia_leaves ~ ~ ~ 0.125 0.125 0.125 0 10 force
+execute if entity @s[tag=glcore.src.stop] run function bentenc:aliens/wildvine/abilities/vine_trap/tick

@@ -1,0 +1,3 @@
+title @s actionbar ["",{"translate":"bentenc.abilities.tail_whip","color":"#6c761f"}]
+item replace entity @s[predicate=glcore:air_mainhand] weapon.mainhand with carrot_on_a_stick{CustomModelData:80000,bentenc.ability:1b,bentenc.alien:1b,bentenc.ability.tail_whip:1b,display:{Name:'{"text":""}'},HideFlags:63,AttributeModifiers:[{AttributeName: "generic.attack_damage", Name: "generic.attack_damage", Amount: 5, Operation: 0, UUID: [I; -1, -9777538, -1, -5847932], Slot: "mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:2}]}
+scoreboard players set @s bentenc.offcmd 180000

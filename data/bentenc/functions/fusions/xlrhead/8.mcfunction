@@ -1,0 +1,3 @@
+title @s actionbar ["",{"translate":"bentenc.xlr8.speed","color":"#72C2CF","extra": [{"score": {"name":"@s","objective":"bentenc.score2"}}]}]
+scoreboard players set @s bentenc.offcmd 80000
+execute if score @s glcore.click matches 1.. run function bentenc:fusions/xlrhead/c

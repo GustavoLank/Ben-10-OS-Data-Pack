@@ -1,0 +1,2 @@
+execute if entity @s[predicate=!glcore:sneaking,x_rotation=-89..90] run function bentenc:omnitrix_core/master_control/cycle
+execute if predicate glcore:sneaking run function bentenc:omnitrix_core/master_control/transform

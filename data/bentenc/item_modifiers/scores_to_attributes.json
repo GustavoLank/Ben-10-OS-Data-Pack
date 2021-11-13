@@ -1,0 +1,72 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gl:bentenc"
+        },
+        "ops": [
+            {
+                "source": "attributes[0]",
+                "target": "AttributeModifiers[0].Amount",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gl:bentenc"
+        },
+        "ops": [
+            {
+                "source": "attributes[1]",
+                "target": "AttributeModifiers[1].Amount",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gl:bentenc"
+        },
+        "ops": [
+            {
+                "source": "attributes[2]",
+                "target": "AttributeModifiers[2].Amount",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gl:bentenc"
+        },
+        "ops": [
+            {
+                "source": "attributes[3]",
+                "target": "AttributeModifiers[3].Amount",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gl:bentenc"
+        },
+        "ops": [
+            {
+                "source": "attributes[4]",
+                "target": "AttributeModifiers[4].Amount",
+                "op": "replace"
+            }
+        ]
+    }
+]

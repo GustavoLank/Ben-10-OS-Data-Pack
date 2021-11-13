@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "feature": "village",
+        "dimension": "minecraft:overworld"
+    }
+}
