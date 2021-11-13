@@ -20,15 +20,15 @@ Here's a list of all the NBT that an Omnitrix can have:
 - `scan_display`: The display tag of the item will be changed to this NBT when scanning. Can include Name and Lore.  
 - `locked_actionbar`: What should be displayed in the actionbar when the player is selecting a locked alien.  
 - `playlist`: An array of playlists objects:  
-    `name`: The name of this playlist. Optional, but recommended if you have more than one playlist.  
-    `aliens`: An array of aliens objects:  
-        `alien`: The alien number ID of this selection. Can also be randomized: by just generating a random alien number ID: `alien:{random:{min:1,max:10}}`; or by getting a random alien number ID of an array: `alien:{random:{aliens:[3, 16, 17, 22]}}`.  
-        `alien_fusion`: The alien fusion number ID for this selection. Can be randomized just like `alien`. Can also have `only_aliens`, when true, this random ID will never be equal `alien`, unless there's not any other option.  
-        `cmd`: The custom model data value to be showed when selecting this alien.  
-        `skin`: The skin number ID of this alien.  
-        `actionbar`: What should be displayed in the actionbar when selecting this alien.  
-        `locked`: (Optional) Set to true if this alien is currently locked, cmd and actionbar will be replaced to locked_cmd and locked_actionbar.  
-        `hide`: (Optional) When set to true, the alien will never be showed while cyclying with the Omnitrix.  
+  - `name`: The name of this playlist. Optional, but recommended if you have more than one playlist.  
+  - `aliens`: An array of aliens objects:  
+    - `alien`: The alien number ID of this selection. Can also be randomized: by just generating a random alien number ID: `alien:{random:{min:1,max:10}}`; or by getting a random alien number ID of an array: `alien:{random:{aliens:[3, 16, 17, 22]}}`.  
+    - `alien_fusion`: The alien fusion number ID for this selection. Can be randomized just like `alien`. Can also have `only_aliens`, when true, this random ID will never be equal `alien`, unless there's not any other option.  
+    - `cmd`: The custom model data value to be showed when selecting this alien.  
+    - `skin`: The skin number ID of this alien.  
+    - `actionbar`: What should be displayed in the actionbar when selecting this alien.  
+    - `locked`: (Optional) Set to true if this alien is currently locked, cmd and actionbar will be replaced to locked_cmd and locked_actionbar.  
+    - `hide`: (Optional) When set to true, the alien will never be showed while cyclying with the Omnitrix.  
         (The alien order is the same as in this array, except for the first alien, that will be the last one. This is mostly like a bug but that's how it works)  
 - `unlock`:  
     `unlockables`: An array of objects:  
