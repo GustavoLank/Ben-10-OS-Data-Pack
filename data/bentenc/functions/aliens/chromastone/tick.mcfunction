@@ -10,8 +10,8 @@ scoreboard players set @s bentenc.health 14
 scoreboard players set @s bentenc.attack 70
 scoreboard players set @s bentenc.speed 20
 scoreboard players set @s bentenc.kb 50
-scoreboard players set @s bentenc.headcmd 80178
-scoreboard players set @s[scores={glcore.moving=1..}] bentenc.headcmd 80179
+scoreboard players set @s bentenc.headcmd 80181
+scoreboard players set @s[scores={glcore.moving=1..}] bentenc.headcmd 80182
 scoreboard players set @s bentenc.offcmd 0
 execute positioned ~ ~1 ~ if entity @e[type=#glcore:slow_raycast,tag=glcore.src.energy,tag=!bentenc.src.big_ultraviolet_beam,tag=!bentenc.src.ultraviolet_beam,distance=..1] run scoreboard players add @s bentenc.score1 5
 execute if entity @s[advancements={glcore:hit_by_lightning_strike=true}] run scoreboard players add @s bentenc.score1 50

@@ -1,1 +1,1 @@
-scoreboard players add @s bentenc.headcmd 104
+scoreboard players add @s[scores={bentenc.headcmd=80001..}] bentenc.headcmd 104

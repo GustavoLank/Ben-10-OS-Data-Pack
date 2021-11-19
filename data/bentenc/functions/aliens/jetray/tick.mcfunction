@@ -7,8 +7,8 @@ scoreboard players set @s bentenc.health 10
 scoreboard players set @s bentenc.attack 40
 scoreboard players set @s bentenc.speed 35
 scoreboard players set @s bentenc.offcmd 0
-scoreboard players set @s bentenc.headcmd 80189
-scoreboard players set @s[scores={glcore.moving=1..}] bentenc.headcmd 80190
+scoreboard players set @s bentenc.headcmd 80192
+scoreboard players set @s[scores={glcore.moving=1..}] bentenc.headcmd 80193
 execute unless score @s glcore.sis matches 8 run scoreboard players set @s bentenc.score1 0
 tag @s[scores={bentenc.score1=0}] remove bentenc.abilities.carrying
 execute if predicate bentenc:fall run function bentenc:aliens/jetray/f_

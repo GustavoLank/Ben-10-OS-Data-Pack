@@ -10,7 +10,7 @@ execute if entity @s[tag=!bentenc.master_control,scores={bentenc.alien=0,bentenc
 execute if score @s bentenc.alien matches 0 store result score @s bentenc.omnitrix run data get entity @s Inventory[{Slot:-106b}].tag.bentenc.omnitrix
 
 execute unless score @s bentenc.time matches 0 run function bentenc:omnitrix_core/timeout-recharge
-execute unless score @s bentenc.alien matches 0 unless score @s bentenc.time matches 0 run function bentenc:aliens/default/tick
+execute if score @s bentenc.alien = @s bentenc.alien unless score @s bentenc.alien matches 0 unless score @s bentenc.time matches 0 run function bentenc:aliens/default/tick
 
 execute if score @s bentenc.story matches 1.. run function bentenc:story/main
 

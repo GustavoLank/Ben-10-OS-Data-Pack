@@ -8,8 +8,8 @@ function bentenc:abilities/no_fall_damage
 scoreboard players set @s bentenc.health 16
 scoreboard players set @s bentenc.attack 80
 scoreboard players set @s bentenc.kb 30
-scoreboard players set @s bentenc.headcmd 80193
-scoreboard players set @s[scores={glcore.moving=1..}] bentenc.headcmd 80194
+scoreboard players set @s bentenc.headcmd 80196
+scoreboard players set @s[scores={glcore.moving=1..}] bentenc.headcmd 80197
 scoreboard players set @s bentenc.offcmd 0
 execute if score @s glcore.sis matches 6 run function bentenc:aliens/swampfire/check/6
 execute if score @s glcore.sis matches 7 run function bentenc:aliens/swampfire/check/7

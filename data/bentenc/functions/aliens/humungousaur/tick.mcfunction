@@ -7,8 +7,8 @@ scoreboard players set @s bentenc.health 24
 scoreboard players set @s bentenc.attack 130
 scoreboard players set @s bentenc.speed -10
 scoreboard players set @s bentenc.kb 70
-scoreboard players set @s bentenc.headcmd 80182
-scoreboard players set @s[scores={glcore.moving=1..}] bentenc.headcmd 80183
+scoreboard players set @s bentenc.headcmd 80185
+scoreboard players set @s[scores={glcore.moving=1..}] bentenc.headcmd 80186
 scoreboard players set @s bentenc.offcmd 0
 execute if score @s bentenc.score1 matches 1 run function bentenc:aliens/humungousaur/grow/t
 execute if entity @s[scores={bentenc.score1=0,glcore.sis=6}] run function bentenc:aliens/humungousaur/check/6
