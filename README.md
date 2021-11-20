@@ -39,4 +39,4 @@ Here's a list of all the NBT that an Omnitrix can have:
 
 
 ## <u>Credits
-[VanillaDynamicEmissives](https://github.com/rx-modules/PlayerDB) by [rx](https://github.com/rx-modules)
+[PlayerDB](https://github.com/rx-modules/PlayerDB) by [rx](https://github.com/rx-modules)
