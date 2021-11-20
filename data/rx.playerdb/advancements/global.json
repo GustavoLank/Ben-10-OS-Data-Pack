@@ -1,0 +1,53 @@
+{
+  "display": {
+    "title": {
+      "text": "",
+      "extra": [
+        {
+          "text": "P",
+          "color": "#dd9b14"
+        },
+        {
+          "text": "l",
+          "color": "#e28e10"
+        },
+        {
+          "text": "a",
+          "color": "#e67f0b"
+        },
+        {
+          "text": "y",
+          "color": "#eb6f07"
+        },
+        {
+          "text": "e",
+          "color": "#eb6f07"
+        },
+        {
+          "text": "r",
+          "color": "#e67f0b"
+        },
+        {
+          "text": "D",
+          "color": "#e28e10"
+        },
+        {
+          "text": "B",
+          "color": "#dd9b14"
+        }
+      ]
+    },
+    "description": "Player Data Manager Library - (SQL but in Minecraft)",
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:rx97",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

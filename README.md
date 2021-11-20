@@ -36,3 +36,7 @@ Here's a list of all the NBT that an Omnitrix can have:
     - `aliens`: The sequence to be followed in order to unlock this alien. Must be an array with four alien ID numbers.  
     - `msg`: (Optional) A stringfied json object to be show in chat when unlocking this alien.  
 (Actually scanning needs to be hardcoded)
+
+
+## <u>Credits
+[VanillaDynamicEmissives](https://github.com/rx-modules/PlayerDB) by [rx](https://github.com/rx-modules)

@@ -1,2 +1,2 @@
-title @s actionbar ["",{"translate":"bentenc.abilities.jump","color":"#9a6a36"}]
-execute if entity @s[predicate=glcore:sneaking] run function bentenc:abilities/jump
+execute unless score @s bentenc.score1 matches 1 run function bentenc:aliens/humungousaur/6n
+execute if score @s bentenc.score1 matches 1 run function bentenc:aliens/humungousaur/grow/6

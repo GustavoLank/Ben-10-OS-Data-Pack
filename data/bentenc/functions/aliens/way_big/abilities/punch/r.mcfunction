@@ -20,7 +20,6 @@ execute positioned ~-1 ~1 ~-1 if block ~ ~ ~ #bentenc:waybig_breakable run setbl
 
 execute positioned ~1 ~-1 ~ if block ~ ~ ~ #bentenc:waybig_breakable run setblock ~ ~ ~ air destroy
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ #bentenc:waybig_breakable run setblock ~ ~ ~ air destroy
-execute positioned ~ ~1 ~-1 if block ~ ~ ~ #bentenc:waybig_breakable run setblock ~ ~ ~ air destroy
 execute positioned ~ ~-1 ~-1 if block ~ ~ ~ #bentenc:waybig_breakable run setblock ~ ~ ~ air destroy
 execute positioned ~1 ~-1 ~1 if block ~ ~ ~ #bentenc:waybig_breakable run setblock ~ ~ ~ air destroy
 execute positioned ~1 ~-1 ~-1 if block ~ ~ ~ #bentenc:waybig_breakable run setblock ~ ~ ~ air destroy
