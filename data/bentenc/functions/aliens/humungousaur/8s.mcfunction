@@ -1,2 +1,2 @@
-title @s actionbar ["",{"translate":"bentenc.abilities.sonic_clap","color":"#c50727"}]
-execute if score @s glcore.click matches 1.. run function bentenc:aliens/four_arms/sonic_clap
+title @s actionbar ["",{"translate":"bentenc.abilities.dash","color":"#9a6a36"}]
+execute if score @s glcore.click matches 1.. run scoreboard players set @s bentenc.cooldow2 120

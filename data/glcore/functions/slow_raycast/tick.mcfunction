@@ -9,6 +9,7 @@ scoreboard players operation #srcFire_ glcore = @s glcore.srcFire
 scoreboard players operation #srcShock_ glcore = @s glcore.srcShock
 scoreboard players operation #srcFreeze_ glcore = @s glcore.srcFreeze
 scoreboard players operation #srcID_ glcore = @s glcore.srcID
+scoreboard players operation #srcDamageID glcore = @s glcore.id
 execute store success score #is_energy glcore if entity @s[tag=glcore.src.energy]
 execute if entity @s[tag=!glcore.src.stop,scores={glcore.srcVel=1..}] run function glcore:slow_raycast/start_fly
 scoreboard players reset #temp4 glcore

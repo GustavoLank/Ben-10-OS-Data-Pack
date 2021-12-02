@@ -1,5 +1,5 @@
 effect give @s resistance 1 3 true
-scoreboard players set @s bentenc.headcmd 80187
+scoreboard players set @s bentenc.headcmd 80188
 scoreboard players set @s bentenc.health 30
 scoreboard players set @s bentenc.attack 200
 scoreboard players set @s bentenc.speed -20

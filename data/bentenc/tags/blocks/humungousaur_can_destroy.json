@@ -9,6 +9,11 @@
 		"minecraft:powder_snow",
 		"#minecraft:carpets",
 		"#minecraft:corals",
+		"minecraft:dirt",
+		"minecraft:coarse_dirt",
+		"minecraft:podzol",
+		"minecraft:dirt_path",
+		"#minecraft:sand",
 		"#glcore:can_replace"
 	]
 }

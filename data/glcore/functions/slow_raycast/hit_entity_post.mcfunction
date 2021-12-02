@@ -4,5 +4,5 @@ execute unless score #is_energy glcore matches 1 run scoreboard players operatio
 scoreboard players operation @s glcore.fire = #srcFire_ glcore
 scoreboard players operation @s[tag=!glcore.shock_immune] glcore.shock = #srcShock_ glcore
 scoreboard players operation @s[tag=!glcore.freeze_immune] glcore.freeze = #srcFreeze_ glcore
-scoreboard players operation @s glcore.damageID = #srcID_ glcore
+scoreboard players operation @s glcore.damageID = #srcDamageID glcore
 function #glcore:events/slow_raycast/hit_entity/post

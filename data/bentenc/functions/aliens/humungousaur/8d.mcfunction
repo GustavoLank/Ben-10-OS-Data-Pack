@@ -1,0 +1,2 @@
+title @s actionbar ["",{"translate":"bentenc.abilities.dash","color":"#9a6a36"},{"text":" - ","color":"#6b4926"},{"score":{"name":"@s","objective":"bentenc.cooldow2"},"color":"#9a6a36"}]
+execute if predicate glcore:sprinting rotated ~ 0 run function bentenc:aliens/humungousaur/8ds

@@ -24,7 +24,7 @@ execute if score @s bentenc.alien matches 22 run function bentenc:aliens/buzzsho
 execute if score @s bentenc.alien matches 23 run function bentenc:aliens/spitter/tick
 
 # AF
-#execute if score @s bentenc.alien matches 24 run function bentenc:aliens/goop/tick
+execute if score @s bentenc.alien matches 24 run function bentenc:aliens/goop/tick
 execute if score @s bentenc.alien matches 25 run function bentenc:aliens/swampfire/tick
 execute if score @s bentenc.alien matches 26 run function bentenc:aliens/chromastone/tick
 #execute if score @s bentenc.alien matches 27 run function bentenc:aliens/?/tick
