@@ -1,2 +1,2 @@
 execute unless predicate glcore:sneaking run function bentenc:aliens/upchuck/abilities/acidic_shoot
-execute if predicate glcore:sneaking run function bentenc:aliens/upchuck/abilities/explosive_shoot
+execute if entity @s[predicate=glcore:sneaking,scores={bentenc.score1=50..}] run function bentenc:aliens/upchuck/abilities/explosive_shoot

@@ -1,0 +1,1 @@
+execute as @e[limit=1,type=wolf,tag=bentenc.echo_echo.clone,sort=nearest,distance=..1] if score @s glcore.id = @p glcore.id at @s run function bentenc:aliens/echo_echo/unclone/1

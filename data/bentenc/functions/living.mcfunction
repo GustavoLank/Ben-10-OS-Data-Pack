@@ -13,6 +13,7 @@ execute if entity @s[type=zombie,tag=bentenc.mobs.viktor] run function bentenc:m
 
 execute if entity @s[tag=bentenc.ditto.clone,type=wolf] run function bentenc:aliens/ditto/clones_tick
 execute if entity @s[tag=bentenc.buzzshock.clone,type=wolf] run function bentenc:aliens/buzzshock/clones_tick
+execute if entity @s[tag=bentenc.echo_echo.clone,type=wolf] run function bentenc:aliens/echo_echo/clones_tick
 execute if entity @s[tag=bentenc.upchuck.ate] run function bentenc:aliens/upchuck/eat/ate
 
 execute if entity @s[type=wandering_trader,tag=bentenc.secret_of_omnitrix.tetrax_w] run function bentenc:resolute/tetrax/tick_w

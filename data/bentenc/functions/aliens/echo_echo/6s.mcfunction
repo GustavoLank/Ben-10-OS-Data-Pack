@@ -1,0 +1,4 @@
+title @s[scores={bentenc.cooldow2=0}] actionbar {"translate":"bentenc.abilities.echo_chamber","color":"#a8d8e6"}
+title @s[scores={bentenc.cooldow2=100..}] actionbar {"translate":"bentenc.abilities.echo_chamber","color":"#a8d8e6"}
+title @s[scores={bentenc.cooldow2=1..100}] actionbar ["",{"translate":"bentenc.abilities.echo_chamber","color":"#85aab5"},{"text":" - ","color":"#a8d8e6"},{"score":{"name":"@s","objective":"bentenc.cooldow2"},"color":"#85aab5"}]
+execute if entity @s[scores={bentenc.score2=0,bentenc.cooldow2=0,glcore.click=1..}] rotated ~ 0 run function bentenc:aliens/echo_echo/abilities/echo_chamber/s

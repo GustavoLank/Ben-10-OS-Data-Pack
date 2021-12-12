@@ -1,0 +1,4 @@
+title @s[scores={bentenc.cooldow1=0}] actionbar {"translate":"bentenc.abilities.wall_of_sound","color":"#a8d8e6"}
+title @s[scores={bentenc.cooldow1=75..}] actionbar {"translate":"bentenc.abilities.wall_of_sound","color":"#a8d8e6"}
+title @s[scores={bentenc.cooldow1=1..75}] actionbar ["",{"translate":"bentenc.abilities.wall_of_sound","color":"#85aab5"},{"text":" - ","color":"#a8d8e6"},{"score":{"name":"@s","objective":"bentenc.cooldow1"},"color":"#85aab5"}]
+execute if entity @s[scores={bentenc.score2=0,bentenc.cooldow1=0,glcore.click=1..}] rotated ~ 0 run function bentenc:aliens/echo_echo/abilities/wall_of_sound/s
