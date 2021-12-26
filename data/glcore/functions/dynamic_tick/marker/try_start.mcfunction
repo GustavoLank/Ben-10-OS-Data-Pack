@@ -1,0 +1,1 @@
+execute unless score #dynamic_tick_marker glcore matches 1.. run schedule function glcore:dynamic_tick/marker/tick 1t

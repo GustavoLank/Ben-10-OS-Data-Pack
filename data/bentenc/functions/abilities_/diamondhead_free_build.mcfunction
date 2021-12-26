@@ -4,3 +4,4 @@ tp @s ~ ~ ~ 0 0
 setblock ~ ~ ~ barrier
 execute if score @s bentenc.score1 matches 300.. run fill ~ ~ ~ ~ ~ ~ air replace barrier
 execute if score @s bentenc.score1 matches 300.. run kill @s
+scoreboard players add #dynamic_tick_armor_stand glcore 1

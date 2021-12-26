@@ -6,4 +6,5 @@ effect give @s conduit_power 1 255 true
 effect give @s dolphins_grace 1 255 true
 effect give @s regeneration 1 0 true
 effect give @s water_breathing 1 0 true
+effect give @s night_vision 15 0 true
 execute if predicate glcore:swimming run function bentenc:aliens/ripjaws/s

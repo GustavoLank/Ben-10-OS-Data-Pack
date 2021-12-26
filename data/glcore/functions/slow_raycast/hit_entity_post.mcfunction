@@ -5,4 +5,5 @@ scoreboard players operation @s glcore.fire = #srcFire_ glcore
 scoreboard players operation @s[tag=!glcore.shock_immune] glcore.shock = #srcShock_ glcore
 scoreboard players operation @s[tag=!glcore.freeze_immune] glcore.freeze = #srcFreeze_ glcore
 scoreboard players operation @s glcore.damageID = #srcDamageID glcore
+function glcore:dynamic_tick/living_entities/try_start
 function #glcore:events/slow_raycast/hit_entity/post

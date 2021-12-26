@@ -6,7 +6,6 @@ execute store result score @s glcore.sis run data get entity @s SelectedItemSlot
 scoreboard players add @s[predicate=glcore:sprinting] glcore.moving 1
 function glcore:util/coas_right_click
 execute if score @s glcore.bite matches 1.. run function glcore:util/bite
-execute if score @s glcore.damage matches 1.. run function glcore:damage/player/start
 execute if score @s glcore.launch matches 1.. run function glcore:launch/init_g
 execute if score @s glcore.launch matches ..-1 run function glcore:launch/tick
 execute if score @s glcore.flight matches 1.. run function glcore:util/flight/start

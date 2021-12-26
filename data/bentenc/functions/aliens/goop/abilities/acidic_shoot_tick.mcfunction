@@ -4,3 +4,4 @@ execute if block ~ ~ ~ #bentenc:humungousaur_can_destroy if predicate glcore:ran
 execute if block ~ ~ ~ #glcore:air run tp @s ~ ~-1 ~
 execute as @e[type=#glcore:living,distance=..1.25] unless score @s bentenc.alien matches 24 run effect give @s poison 5 0 true
 kill @s[scores={bentenc.score1=70..}]
+scoreboard players add #dynamic_tick_marker glcore 1

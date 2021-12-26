@@ -1,5 +1,5 @@
 execute if entity @s[tag=bentenc.src.sonic_clap] run function bentenc:slow_raycast/tick/sonic_clap
-execute if entity @s[tag=bentenc.src.shockwave,scores={glcore.srcTp=1..}] run function bentenc:slow_raycast/tick/shockwave
+execute if entity @s[tag=bentenc.src.shockwave,scores={glcore.srcTp=1..}] run function bentenc:slow_raycast/tick/shockwave/t
 execute if entity @s[tag=bentenc.src.upgraded_poppy,tag=glcore.src.stop] run function bentenc:slow_raycast/tick/upgraded_poppy
 execute if entity @s[tag=bentenc.src.slime_projectiles] run function bentenc:aliens/stinkfly/slime_projectile/tick
 execute if entity @s[tag=bentenc.src.fire_disk] run function bentenc:slow_raycast/tick/fire_disk

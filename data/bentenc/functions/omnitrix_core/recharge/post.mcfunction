@@ -4,3 +4,4 @@ function bentenc:omnitrix_core/set_player_data_
 function #bentenc:events/omnitrix/recharge/post
 scoreboard players set @s bentenc.alien 0
 scoreboard players set @s bentenc.alienf 0
+function bentenc:dynamic_tick/players/try_start

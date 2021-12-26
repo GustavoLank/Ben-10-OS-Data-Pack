@@ -13,3 +13,5 @@ scoreboard players add @s[scores={bentenc.score1=..-1}] bentenc.score1 1
 execute if score @s bentenc.score1 matches 0 if entity @a[gamemode=!creative,gamemode=!spectator,distance=..10] run scoreboard players set @s bentenc.score1 1
 execute if score @s bentenc.score1 matches 1 if entity @a[gamemode=!creative,gamemode=!spectator,distance=..10] facing entity @p[gamemode=!creative,gamemode=!spectator,distance=..10] feet anchored eyes positioned ^ ^ ^1 rotated ~ ~-20 run function bentenc:aliens/snare-oh/bandage_whip/2
 execute if entity @s[scores={bentenc.score1=1,bentenc.score2=0}] run scoreboard players set @s bentenc.score1 -100
+
+scoreboard players add #dynamic_tick_living_entities glcore 1

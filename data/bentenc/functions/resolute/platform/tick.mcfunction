@@ -21,3 +21,4 @@ execute if entity @s[scores={bentenc.score1=1..803}] positioned ~-3 ~ ~-3 run ef
 execute if entity @s[scores={bentenc.score1=400}] run scoreboard players set @a[dx=5,dz=5,dy=2] bentenc.lineTime 1
 execute if entity @s[scores={bentenc.score1=700}] run scoreboard players set @a[dx=5,dz=5,dy=2] bentenc.lineTime 1
 execute if entity @s[scores={bentenc.score1=700}] run scoreboard players set @e[type=wandering_trader,tag=bentenc.secret_of_omnitrix.tetrax_w,dx=5,dz=5,dy=2] bentenc.score1 1
+scoreboard players add #dynamic_tick_armor_stand glcore 1

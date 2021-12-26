@@ -12,6 +12,7 @@ scoreboard players operation #srcID_ glcore = @s glcore.srcID
 scoreboard players operation #srcDamageID glcore = @s glcore.id
 execute store success score #is_energy glcore if entity @s[tag=glcore.src.energy]
 execute if entity @s[tag=!glcore.src.stop,scores={glcore.srcVel=1..}] run function glcore:slow_raycast/start_fly
+scoreboard players add #dynamic_tick_slow_raycast glcore 1
 scoreboard players reset #temp4 glcore
 scoreboard players reset #srcDamage_ glcore
 scoreboard players reset #srcFire_ glcore

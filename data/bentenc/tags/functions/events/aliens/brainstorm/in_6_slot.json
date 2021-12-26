@@ -1,0 +1,7 @@
+{
+    "_comment": [
+        "Runs every tick as players whose selected slot is the seventh and are transformed into Brainstorm.",
+        "When cancelled, default commands will not run."
+    ],
+    "values": []
+}

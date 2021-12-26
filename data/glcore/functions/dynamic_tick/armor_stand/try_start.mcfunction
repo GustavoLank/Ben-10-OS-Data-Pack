@@ -1,0 +1,1 @@
+execute unless score #dynamic_tick_armor_stand glcore matches 1.. run schedule function glcore:dynamic_tick/armor_stand/tick 1t

@@ -4,3 +4,4 @@ data merge entity @s {HandItems:[]}
 execute as @e[type=armor_stand,tag=bentenc.secret_of_omnitrix.tetrax_w] run tp @s ~ ~ ~ ~ ~
 execute if score @s bentenc.score1 matches 0 run data modify entity @s WanderTarget set value {X:12,Y:16,Z:-194}
 execute if score @s bentenc.score1 matches 1 run data modify entity @s WanderTarget set value {X:16,Y:39,Z:-421}
+scoreboard players add #dynamic_tick_living_entities glcore 1

@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "offhand": {
+                                    "items": [
+                                        "minecraft:carrot_on_a_stick"
+                                    ],
+                                    "nbt": "{bentenc:{is_omnitrix:1b}}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "bentenc:dynamic_tick/players/try_start"
+    }
+}

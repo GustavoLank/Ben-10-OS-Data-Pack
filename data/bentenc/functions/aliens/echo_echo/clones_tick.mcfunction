@@ -6,3 +6,4 @@ execute unless entity @s[nbt={Motion:[0d,0d,0d]}] run item replace entity @e[lim
 execute rotated as @s at @e[limit=1,type=armor_stand,tag=bentenc.echo_echo.clone_,sort=nearest] run tp @e[limit=1,type=armor_stand,tag=bentenc.echo_echo.clone_,sort=nearest,distance=..1] ~ ~ ~ ~ ~
 execute as @a[scores={bentenc.alien=32},distance=..50] if entity @s unless score @e[type=wolf,tag=bentenc.echo_echo.clone,distance=0,limit=1] glcore.id = @s glcore.id run kill @e[type=wolf,tag=bentenc.echo_echo.clone,distance=0,limit=1]
 execute unless entity @a[scores={bentenc.alien=32},distance=..50] run kill @s
+scoreboard players add #dynamic_tick_living_entities glcore 1

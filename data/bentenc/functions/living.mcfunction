@@ -1,8 +1,8 @@
 scoreboard players add @s bentenc.tornado 0
 
-
 execute if score @s bentenc.tornado matches 1.. run function bentenc:abilities_/tornado
 execute if score @s bentenc.carryID matches 1.. unless entity @a[tag=bentenc.abilities.carrying,distance=..5] run function bentenc:aliens/cannonbolt/reset_carry
+execute if score @s bentenc.carryID matches 1.. run scoreboard players add #dynamic_tick_living_entities glcore 1
 
 execute unless entity @a[scores={bentenc.alien=14,bentenc.score3=1},distance=..16] run tag @s remove bentenc.snareoh.lifted
 execute unless entity @a[scores={bentenc.alien=19,bentenc.score1=2},distance=..20] run tag @s remove bentenc.way_big.lifted

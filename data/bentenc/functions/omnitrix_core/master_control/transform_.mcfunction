@@ -21,6 +21,7 @@ scoreboard players set @s bentenc.cooldow2 0
 scoreboard players set @s bentenc.cooldow3 0
 scoreboard players set @s bentenc.cooldow4 0
 scoreboard players set @s bentenc.cooldow5 0
+scoreboard players set @s bentenc.skin 0
 
 item modify entity @s armor.head bentenc:set_select_playlist_
 

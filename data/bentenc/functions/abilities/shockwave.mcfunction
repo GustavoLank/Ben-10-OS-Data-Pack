@@ -1,4 +1,4 @@
-# > Velocity = 0 Blocks (Moving is made in `bentenc:slow_raycast/tick/shockwave`)
+# > Velocity = 0 Blocks (Moving is made in `bentenc:slow_raycast/tick/shockwave/t`)
 # > Max = 30 Ticks
 
 summon minecraft:marker ~ ~ ~ {Tags:["glcore.src","glcore.src.noEntityCollision","glcore.src.noBlockCollision","glcore.src.onlyFaceY","bentenc.src.shockwave"],CustomName:'{"text":"Shockwave"}'}

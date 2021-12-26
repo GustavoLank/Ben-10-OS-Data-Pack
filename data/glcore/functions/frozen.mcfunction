@@ -9,3 +9,4 @@ execute if score @s glcore.freeze matches 0 run fill ~1 ~2 ~1 ~-1 ~ ~-1 air repl
 execute if score @s glcore.freeze matches 0 run particle minecraft:block ice ~ ~2 ~ 1 1 1 0.1 50 force
 execute if score @s glcore.freeze matches 0 run playsound minecraft:block.glass.break block @a[distance=..10] ~ ~ ~ 1 1 0
 execute unless entity @s run fill ~1 ~2 ~1 ~-1 ~ ~-1 air replace ice
+scoreboard players add #dynamic_tick_living_entities glcore 1

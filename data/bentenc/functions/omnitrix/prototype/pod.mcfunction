@@ -12,3 +12,4 @@ execute if score @s bentenc.score1 matches 1 if entity @a[distance=..2] if score
 execute if score @s bentenc.score1 matches 1 if entity @a[distance=..2] if score @s bentenc.score2 matches 60.. run scoreboard players set @s bentenc.score1 2
 execute if score @s bentenc.score1 matches 2 run scoreboard players add @s bentenc.score2 1
 execute if score @s bentenc.score1 matches 2 if score @s bentenc.score2 matches 300.. run kill @s
+scoreboard players add #dynamic_tick_armor_stand glcore 1

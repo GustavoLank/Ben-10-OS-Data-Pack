@@ -6,3 +6,4 @@ execute unless entity @a[distance=..16] run scoreboard players remove @s[tag=ben
 execute unless entity @a[distance=..16] run tag @s remove bentenc.resolute.door.open
 execute if entity @s[tag=!bentenc.resolute.door.open,scores={bentenc.score1=1..}] run tp @s ~ ~-.125 ~
 execute if entity @s[tag=!bentenc.resolute.door.open,scores={bentenc.score1=1..}] run scoreboard players remove @s bentenc.score1 1
+scoreboard players add #dynamic_tick_armor_stand glcore 1

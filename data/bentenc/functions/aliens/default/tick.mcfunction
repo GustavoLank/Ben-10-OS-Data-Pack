@@ -1,4 +1,8 @@
+scoreboard players add #request glcore.ocmd 1
+scoreboard players add #request glcore.sis 1
+
 effect give @s invisibility 1 0 true
+execute unless score @s bentenc.headcmd = @s glcore.hcmd run function bentenc:aliens/default/set_head_cmd
 
 execute if entity @s[tag=bentenc.master_control] run function bentenc:omnitrix_core/master_control/tick
 
@@ -18,9 +22,9 @@ execute store result storage gl:bentenc attributes[2] double 0.01 run scoreboard
 execute store result storage gl:bentenc attributes[3] double 0.01 run scoreboard players get @s bentenc.kb
 execute store result storage gl:bentenc attributes[4] double 1 run scoreboard players get @s bentenc.armor
 item modify entity @s armor.head bentenc:scores_to_attributes
-execute unless score @s bentenc.headcmd = @s glcore.hcmd run function bentenc:aliens/default/set_head_cmd
 execute unless score @s bentenc.health matches 0 run function glcore:util/update_health
 execute if predicate glcore:coa_offhand unless score @s bentenc.offcmd = @s glcore.ocmd unless score @s glcore.sis matches 9 run function bentenc:aliens/default/set_offhand_cmd
 scoreboard players remove @s[scores={bentenc.cooldow1=1..}] bentenc.cooldow1 1
 scoreboard players remove @s[scores={bentenc.cooldow2=1..}] bentenc.cooldow2 1
 scoreboard players remove @s[scores={bentenc.cooldow3=1..}] bentenc.cooldow3 1
+scoreboard players add #dynamic_tick_players glcore 1

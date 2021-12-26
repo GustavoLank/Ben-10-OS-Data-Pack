@@ -19,3 +19,5 @@ execute if score @s bentenc.score2 matches 1.. run scoreboard players add @s ben
 execute if score @s bentenc.score1 matches 1 if score @s bentenc.score2 matches 100.. run scoreboard players set @s bentenc.score1 0
 execute if score @s bentenc.score2 matches 300.. run scoreboard players set @s bentenc.score2 0
 execute if score @s bentenc.score1 matches 1 unless entity @a[gamemode=!creative,gamemode=!spectator,distance=..10] run scoreboard players set @s bentenc.score1 0
+
+scoreboard players add #dynamic_tick_living_entities glcore 1

@@ -2,6 +2,7 @@ scoreboard objectives add glcore dummy
 scoreboard players set -1 glcore -1
 scoreboard players set 2 glcore 2
 scoreboard players set 4 glcore 4
+scoreboard players set 5 glcore 5
 scoreboard players set 10 glcore 10
 scoreboard players set 15 glcore 15
 scoreboard players set 20 glcore 20
@@ -61,7 +62,7 @@ scoreboard objectives add glcore.ocmd dummy
 scoreboard objectives add glcore.hcmd dummy
 scoreboard objectives add glcore.sis dummy
 scoreboard objectives add glcore.moving minecraft.custom:minecraft.walk_one_cm
-
+scoreboard objectives add glcore.leave minecraft.custom:minecraft.leave_game
 
 #
 scoreboard objectives add glcore.damage dummy
@@ -85,7 +86,23 @@ scoreboard objectives add glcore.srcShock dummy
 scoreboard objectives add glcore.srcFreeze dummy
 scoreboard objectives add glcore.srcBounce dummy
 
+scoreboard players reset @s glcore.leave
+
+schedule function glcore:5s 5s replace
+
 function glcore:math/rng/_/init
 
-schedule function glcore:tick 1t replace
-#schedule function glcore:2t 2t replace
+scoreboard players set #dynamic_tick_players glcore 0
+schedule function glcore:dynamic_tick/players/tick 1t replace
+
+scoreboard players set #dynamic_tick_living_entities glcore 0
+schedule function glcore:dynamic_tick/living_entities/tick 1t replace
+
+scoreboard players set #dynamic_tick_armor_stand glcore 0
+schedule function glcore:dynamic_tick/armor_stand/tick 1t replace
+
+scoreboard players set #dynamic_tick_marker glcore 0
+schedule function glcore:dynamic_tick/marker/tick 1t replace
+
+scoreboard players set #dynamic_tick_slow_raycast glcore 0
+schedule function glcore:dynamic_tick/slow_raycast/tick 1t replace

@@ -1,0 +1,1 @@
+execute unless score #dynamic_tick_living_entities glcore matches 1.. run schedule function glcore:dynamic_tick/living_entities/tick 1t
