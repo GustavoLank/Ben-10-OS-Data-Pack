@@ -17,5 +17,6 @@ scoreboard players add @s bentenc.cooldow3 0
 scoreboard players add @s bentenc.cooldow4 0
 scoreboard players add @s bentenc.cooldow5 0
 scoreboard players add @s bentenc.time 0
+scoreboard players add @s bentenc.scan 0
 #summon marker ~ ~ ~ {Tags:["bentenc.player_data","global.ignore"]}
 #scoreboard players operation @e[type=marker,tag=bentenc.player_data,distance=...1,limit=1,sort=nearest] glcore.id = @s glcore.id

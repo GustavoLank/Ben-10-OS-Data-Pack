@@ -1,2 +1,2 @@
 title @s actionbar ["",{"translate":"bentenc.abilities.blade","color":"#72C2CF"}]
-item replace entity @s[predicate=glcore:air_mainhand] weapon.mainhand with diamond_sword{CustomModelData:80004,bentenc.ability:1b,bentenc.alien:1b,display:{Name:'{"text":""}'},HideFlags:63}
+item replace entity @s[predicate=glcore:air_mainhand] weapon.mainhand with diamond_sword{CustomModelData:80004,Unbreakable:1b,bentenc.ability:1b,bentenc.alien:1b,display:{Name:'{"text":""}'},HideFlags:63}

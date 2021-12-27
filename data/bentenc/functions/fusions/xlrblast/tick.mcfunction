@@ -2,6 +2,7 @@ effect give @s jump_boost 1 0 true
 effect give @s haste 1 4 true
 effect give @s regeneration 1 0 true
 effect give @s saturation 1 0 true
+effect give @s fire_resistance 1 0 true
 scoreboard players set @s[scores={bentenc.score2=0}] bentenc.score2 1
 scoreboard players set @s bentenc.health 6
 scoreboard players set @s bentenc.attack 20

@@ -1,2 +1,2 @@
 scoreboard players set @s bentenc.score1 0
-stopsound @s player bentenc:echo_echo_scream
+stopsound @a[distance=0..] player bentenc:echo_echo_scream
