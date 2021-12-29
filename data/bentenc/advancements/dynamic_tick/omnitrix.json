@@ -23,6 +23,6 @@
         }
     },
     "rewards": {
-        "function": "bentenc:dynamic_tick/players/try_start"
+        "function": "bentenc:omnitrix_core/put_in_offhand"
     }
 }

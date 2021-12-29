@@ -3,11 +3,11 @@
         "function": "minecraft:copy_nbt",
         "source": {
             "type": "minecraft:storage",
-            "source": "gl:bentenc"
+            "source": "rx.playerdb:io"
         },
         "ops": [
             {
-                "source": "marker.tag.bentenc",
+                "source": "player.data.gl.bentenc.item.tag.bentenc",
                 "target": "bentenc",
                 "op": "replace"
             }
@@ -17,11 +17,11 @@
         "function": "minecraft:copy_nbt",
         "source": {
             "type": "minecraft:storage",
-            "source": "gl:bentenc"
+            "source": "rx.playerdb:io"
         },
         "ops": [
             {
-                "source": "marker.tag.display",
+                "source": "player.data.gl.bentenc.item.tag.display",
                 "target": "display",
                 "op": "replace"
             }
@@ -31,11 +31,11 @@
         "function": "minecraft:copy_nbt",
         "source": {
             "type": "minecraft:storage",
-            "source": "gl:bentenc"
+            "source": "rx.playerdb:io"
         },
         "ops": [
             {
-                "source": "marker.tag.CustomModelData",
+                "source": "player.data.gl.bentenc.item.tag.CustomModelData",
                 "target": "CustomModelData",
                 "op": "replace"
             }

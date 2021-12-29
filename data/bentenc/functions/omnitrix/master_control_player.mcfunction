@@ -1,1 +1,1 @@
-execute if score @s bentenc.omnitrix matches 1 run playsound bentenc:prototype_omnitrix_transform player @a[distance=..10] ~ ~ ~ 0.6 1 0
+execute if score @s bentenc.omnitrix matches 1 run playsound bentenc:prototype_omnitrix_transform player @a ~ ~ ~ 1 1 0

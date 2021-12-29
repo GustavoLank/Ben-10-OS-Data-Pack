@@ -1,0 +1,44 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gl:bentenc"
+        },
+        "ops": [
+            {
+                "source": "temp2[0].tag.bentenc",
+                "target": "bentenc",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gl:bentenc"
+        },
+        "ops": [
+            {
+                "source": "temp2[0].tag.display",
+                "target": "display",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "gl:bentenc"
+        },
+        "ops": [
+            {
+                "source": "temp2[0].tag.CustomModelData",
+                "target": "CustomModelData",
+                "op": "replace"
+            }
+        ]
+    }
+]
