@@ -7,9 +7,19 @@ scoreboard players set 10 glcore 10
 scoreboard players set 15 glcore 15
 scoreboard players set 20 glcore 20
 scoreboard players set 25 glcore 25
+scoreboard players set 60 glcore 60
 scoreboard players set 100 glcore 100
+scoreboard players set 153 glcore 153
 scoreboard players set 360 glcore 360
+scoreboard players set 365 glcore 365
+scoreboard players set 400 glcore 400
 scoreboard players set 1000 glcore 1000
+scoreboard players set 1460 glcore 1460
+scoreboard players set 3600 glcore 3600
+scoreboard players set 36524 glcore 36524
+scoreboard players set 86400 glcore 86400
+scoreboard players set 146096 glcore 146096
+scoreboard players set 146097 glcore 146097
 
 
 scoreboard objectives add glcore.id dummy
