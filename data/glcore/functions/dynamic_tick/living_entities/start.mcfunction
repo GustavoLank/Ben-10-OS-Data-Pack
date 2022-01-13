@@ -1,0 +1,1 @@
+schedule function glcore:dynamic_tick/living_entities/tick 1t

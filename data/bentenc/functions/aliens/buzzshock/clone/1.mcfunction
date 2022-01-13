@@ -2,4 +2,4 @@ summon wolf ~ ~ ~ {Tamed:1b,Tags:["bentenc.buzzshock.clone"],Silent:1b,Passenger
 particle minecraft:dust 0 1 0 .75 ~ ~.5 ~ 0.25 0.25 0.25 0 25 force
 execute as @e[type=wolf,tag=bentenc.buzzshock.clone,sort=nearest,distance=..1] unless score @s glcore.id = @s glcore.id run function bentenc:aliens/buzzshock/clone/2
 scoreboard players remove @s bentenc.score1 100
-function glcore:dynamic_tick/living_entities/try_start
+function glcore:dynamic_tick/living_entities/start

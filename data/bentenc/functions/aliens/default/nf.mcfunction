@@ -31,7 +31,7 @@ execute if score @s bentenc.alien matches 26 run function bentenc:aliens/chromas
 execute if score @s bentenc.alien matches 28 run function bentenc:aliens/humungousaur/tick
 execute if score @s bentenc.alien matches 29 run function bentenc:aliens/brainstorm/tick
 execute if score @s bentenc.alien matches 30 run function bentenc:aliens/jetray/tick
-#execute if score @s bentenc.alien matches 31 run function bentenc:aliens/spider_monkey?/tick
+execute if score @s bentenc.alien matches 31 run function bentenc:aliens/spidermonkey/tick
 execute if score @s bentenc.alien matches 32 run function bentenc:aliens/echo_echo/tick
 
 function #bentenc:events/aliens/tick

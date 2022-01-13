@@ -7,3 +7,4 @@ execute if entity @s[tag=bentenc.src.vine_shot] run function bentenc:slow_raycas
 execute unless entity @s[tag=!bentenc.src.vine_trap,tag=!bentenc.src.vine_trap.swampfire] run function bentenc:slow_raycast/hit_block/vine_trap
 execute if entity @s[tag=bentenc.src.slime_spit] run function bentenc:aliens/spitter/slime_spit/u
 execute if entity @s[tag=bentenc.src.acidic_shoot.goop] positioned ^ ^ ^.25 align xyz positioned ~.5 ~.5 ~.5 run function bentenc:aliens/goop/abilities/acidic_shoot_hit_block
+execute if entity @s[tag=bentenc.src.spidermonkey.web_shot] run function bentenc:slow_raycast/hit_block/web_shot

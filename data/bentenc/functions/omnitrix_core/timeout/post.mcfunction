@@ -38,4 +38,4 @@ scoreboard players set @s bentenc.cooldow4 0
 scoreboard players set @s bentenc.cooldow5 0
 scoreboard players set @s bentenc.skin 0
 tag @s add glcore.update_health
-function bentenc:dynamic_tick/players/try_start
+function bentenc:dynamic_tick/players/start

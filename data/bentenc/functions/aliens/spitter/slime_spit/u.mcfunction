@@ -4,4 +4,4 @@ execute unless block ~ ~ ~-1 #glcore:pass_through run summon armor_stand ~ ~ ~ {
 execute unless block ~ ~ ~1 #glcore:pass_through run summon armor_stand ~ ~ ~ {Tags:["bentenc.spitter.spit"],Invisible:1b,Small:1b,Marker:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:180017}}]}
 execute unless block ~1 ~ ~ #glcore:pass_through run summon armor_stand ~ ~ ~ {Tags:["bentenc.spitter.spit"],Invisible:1b,Small:1b,Marker:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:180018}}]}
 execute unless block ~-1 ~ ~ #glcore:pass_through run summon armor_stand ~ ~ ~ {Tags:["bentenc.spitter.spit"],Invisible:1b,Small:1b,Marker:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:180019}}]}
-function glcore:dynamic_tick/armor_stand/try_start
+function glcore:dynamic_tick/armor_stand/start

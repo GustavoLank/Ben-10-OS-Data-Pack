@@ -12,7 +12,7 @@ scoreboard players set @s bentenc.headcmd 80048
 scoreboard players set @s[scores={glcore.moving=1..}] bentenc.headcmd 80049
 scoreboard players set @s bentenc.offcmd 0
 function bentenc:abilities/no_fall_damage
-execute if entity @s[scores={bentenc.score1=1,glcore.launch=..-1}] at @e[type=marker,tag=glcore.launch_player,limit=1,sort=nearest,distance=..1] run function bentenc:aliens/wildvine/abilities/vine_swing_e
+execute if entity @s[scores={bentenc.score1=1,glcore.launch=..-1}] run function bentenc:aliens/wildvine/abilities/vine_swing/t
 scoreboard players set @s[scores={bentenc.score1=1,glcore.launch=0}] bentenc.score1 0
 execute if score @s glcore.sis matches 6 run function bentenc:aliens/wildvine/check/6
 execute if score @s glcore.sis matches 7 run function bentenc:aliens/wildvine/check/7

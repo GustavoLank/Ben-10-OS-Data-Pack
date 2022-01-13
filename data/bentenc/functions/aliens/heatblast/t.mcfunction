@@ -6,7 +6,7 @@ effect give @s minecraft:slow_falling 1 0 true
 scoreboard players set @s bentenc.speed 40
 scoreboard players set @s bentenc.attack 60
 scoreboard players set @e[type=#glcore:living,distance=.2..2] glcore.fire 25
-function glcore:dynamic_tick/living_entities/try_start
+function glcore:dynamic_tick/living_entities/start
 particle flame ~ ~ ~ 0.05 0.05 0.05 0 0 force
 particle flame ~.25 ~.55 ~ 0.05 .15 0.05 0 2 force
 particle flame ~-.25 ~.55 ~ 0.05 .15 0.05 0 2 force

@@ -1,0 +1,1 @@
+schedule function glcore:dynamic_tick/armor_stand/tick 1t

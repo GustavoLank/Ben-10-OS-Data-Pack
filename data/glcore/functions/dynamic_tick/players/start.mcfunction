@@ -1,0 +1,1 @@
+schedule function glcore:dynamic_tick/players/tick 1t

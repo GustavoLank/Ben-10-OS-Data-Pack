@@ -15,5 +15,6 @@ execute if entity @s[tag=bentenc.ditto.clone,type=wolf] run function bentenc:ali
 execute if entity @s[tag=bentenc.buzzshock.clone,type=wolf] run function bentenc:aliens/buzzshock/clones_tick
 execute if entity @s[tag=bentenc.echo_echo.clone,type=wolf] run function bentenc:aliens/echo_echo/clones_tick
 execute if entity @s[tag=bentenc.upchuck.ate] run function bentenc:aliens/upchuck/eat/ate
+execute if entity @s[tag=bentenc.spidermonkey.web_caught] run function bentenc:aliens/spidermonkey/abilities/web_sling/caught
 
 execute if entity @s[type=wandering_trader,tag=bentenc.secret_of_omnitrix.tetrax_w] run function bentenc:resolute/tetrax/tick_w

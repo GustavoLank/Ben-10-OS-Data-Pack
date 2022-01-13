@@ -1,0 +1,1 @@
+schedule function glcore:dynamic_tick/slow_raycast/tick 1t

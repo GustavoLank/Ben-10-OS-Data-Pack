@@ -5,4 +5,4 @@ execute unless score @s glcore.srcMax = @s glcore.srcMax run scoreboard players 
 execute unless score @s glcore.srcVel = @s glcore.srcVel run scoreboard players set @s glcore.srcVel 4
 function glcore:slow_raycast/init_tp
 tag @s add glcore.src.ready
-function glcore:dynamic_tick/slow_raycast/try_start
+function glcore:dynamic_tick/slow_raycast/start

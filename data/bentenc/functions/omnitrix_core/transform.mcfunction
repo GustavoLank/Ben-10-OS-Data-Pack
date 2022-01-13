@@ -21,4 +21,4 @@ function #bentenc:events/omnitrix/on_transform
 scoreboard players set @s[tag=!bentenc.master_control] bentenc.alienO 0
 scoreboard players set @s bentenc.wait 0
 scoreboard players set @s glcore.click 0
-function bentenc:dynamic_tick/players/try_start
+function bentenc:dynamic_tick/players/start

@@ -6,3 +6,4 @@ execute if entity @s[tag=bentenc.src.eye_guy.freeze_ray] run particle dust .125 
 execute if entity @s[tag=bentenc.src.acidic_shoot] run particle block slime_block ~ ~ ~ 0 0 0 0 5 force
 execute if entity @s[tag=bentenc.src.frankenstrike.electrical_beam] run particle dust 0 1 0.25 1 ~ ~ ~ 0 0 0 0 5 force
 execute if entity @s[tag=bentenc.src.jetray.neuroshock_blast] run function bentenc:slow_raycast/fly/neuroshock_blast
+execute if entity @s[tag=bentenc.src.spidermonkey.web_shot] run particle item cobweb ~ ~ ~ 0 0 0 0 5 force
