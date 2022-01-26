@@ -1,3 +1,3 @@
 data modify storage gl:bentenc unlockAliens set from storage gl:bentenc unlock.unlockables[0].aliens
-execute store result score #temp glcore run data modify storage gl:bentenc unlockAliens set from storage gl:bentenc unlock.aliens
+execute store success score #temp glcore run data modify storage gl:bentenc unlockAliens set from storage gl:bentenc unlock.aliens
 execute if score #temp glcore matches 1 if data storage gl:bentenc unlock.unlockables[0].aliens run function bentenc:omnitrix_core/unlock/4_

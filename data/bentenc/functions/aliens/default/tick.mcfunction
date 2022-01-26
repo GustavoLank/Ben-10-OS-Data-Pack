@@ -1,4 +1,5 @@
 scoreboard players add #request glcore.ocmd 1
+scoreboard players add #request glcore.hcmd 1
 scoreboard players add #request glcore.sis 1
 
 effect give @s invisibility 1 0 true

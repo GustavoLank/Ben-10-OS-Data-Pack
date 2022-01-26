@@ -6,7 +6,8 @@ execute if entity @s[scores={glcore.sis=8,glcore.click=1..,bentenc.time=..-3},pr
 
 execute if entity @s[scores={bentenc.scan=1..,bentenc.wait=1..},predicate=bentenc:holding_scanning_omnitrix] run function bentenc:omnitrix_core/scanning
 
-execute if entity @s[tag=!bentenc.master_control,scores={bentenc.alien=0,bentenc.omnitrix=1..},gamemode=!creative,gamemode=!spectator,predicate=!bentenc:holding_omnitrix] run function bentenc:omnitrix_core/wrist
+execute if entity @s[tag=!bentenc.player_dead,tag=!bentenc.master_control,scores={bentenc.alien=0,bentenc.omnitrix=1..},gamemode=!creative,gamemode=!spectator,predicate=!bentenc:holding_omnitrix] run function bentenc:omnitrix_core/wrist
+execute if entity @s[tag=bentenc.player_dead,scores={bentenc.alien=0},predicate=!bentenc:holding_omnitrix] run function bentenc:omnitrix_core/wrist
 execute if score @s bentenc.alien matches 0 store result score @s bentenc.omnitrix run data get entity @s Inventory[{Slot:-106b}].tag.bentenc.omnitrix
 execute unless score @s bentenc.omnitrix matches 0 run scoreboard players add #dynamic_tick_players glcore 1
 
@@ -16,3 +17,5 @@ execute if score @s bentenc.alien = @s bentenc.alien unless score @s bentenc.ali
 execute if score @s bentenc.story matches 1.. run function bentenc:story/main
 
 execute if entity @s[scores={bentenc.omnitrix=1,bentenc.scan=0,bentenc.time=0,glcore.click=1..},predicate=bentenc:iron_ingot_in_mainhand] unless score @s glcore.sis matches 8 run function bentenc:omnitrix/prototype/break/try
+
+execute if entity @s[tag=bentenc.player_dead] run function bentenc:omnitrix_core/player_dead

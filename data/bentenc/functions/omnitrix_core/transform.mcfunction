@@ -6,7 +6,7 @@ scoreboard players operation @s bentenc.alien = @s bentenc.alienO
 execute unless data entity @s Inventory[{Slot:-106b}].tag.bentenc.timeout.max store result score @s bentenc.time run data get entity @s Inventory[{Slot:-106b}].tag.bentenc.timeout
 execute if data entity @s Inventory[{Slot:-106b}].tag.bentenc.timeout.max run function bentenc:omnitrix_core/timeout/random
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{bentenc:{master_control:1b}}}]} run function bentenc:omnitrix_core/has_master_control
-execute if data entity @s Inventory[{Slot:-106b}].tag.bentenc.unlock.unlockables run function bentenc:omnitrix_core/unlock/0
+execute if data entity @s Inventory[{Slot:-106b}].tag.bentenc.unlock.unlockables[0] run function bentenc:omnitrix_core/unlock/0
 execute unless data entity @s Inventory[{Slot:-106b}].tag.bentenc.select_playlist[-1].skin store result score @s bentenc.skin run data get entity @s Inventory[{Slot:-106b}].tag.bentenc.omnitrix
 execute if data entity @s Inventory[{Slot:-106b}].tag.bentenc.select_playlist[-1].skin store result score @s bentenc.skin run data get entity @s Inventory[{Slot:-106b}].tag.bentenc.select_playlist[-1].skin
 execute if data entity @s Inventory[{Slot:-106b}].tag.bentenc.select_playlist[-1].alien.random run function bentenc:omnitrix_core/random/start
@@ -21,4 +21,4 @@ function #bentenc:events/omnitrix/on_transform
 scoreboard players set @s[tag=!bentenc.master_control] bentenc.alienO 0
 scoreboard players set @s bentenc.wait 0
 scoreboard players set @s glcore.click 0
-function bentenc:dynamic_tick/players/start
+function glcore:dynamic_tick/players/start
