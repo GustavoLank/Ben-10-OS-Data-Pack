@@ -1,2 +1,2 @@
-execute anchored eyes positioned ^ ^ ^2 run scoreboard players set @e[limit=1,sort=nearest,distance=..2,nbt={HurtTime:10s},type=#glcore:living] glcore.shock 15
+execute anchored eyes positioned ^ ^ ^2 run scoreboard players set @e[type=#glcore:living,limit=1,sort=nearest,distance=..2,nbt={HurtTime:10s}] glcore.shock 15
 function glcore:dynamic_tick/living_entities/start

@@ -1,4 +1,4 @@
-execute as @e[distance=..5,tag=bentenc.body_possessed,sort=nearest,nbt=!{ignited:1b}] if score @s bentenc.possesID = @p glcore.id rotated ~ 0 run function bentenc:aliens/ghostfreak/pt_
+execute as @e[distance=..5,type=#glcore:living,tag=bentenc.body_possessed,sort=nearest,nbt=!{ignited:1b}] if score @s bentenc.possesID = @p glcore.id rotated ~ 0 run function bentenc:aliens/ghostfreak/pt_
 execute unless score #temp glcore matches 1 run function bentenc:aliens/ghostfreak/leave_body
 scoreboard players reset #temp glcore
 
