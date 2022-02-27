@@ -8,8 +8,8 @@ execute unless data storage gl:bentenc select_playlist run data modify storage g
 
 execute if score @s bentenc.alienO matches -2 run function bentenc:omnitrix_core/master_control/start
 
-function bentenc:omnitrix_core/master_control/select
+execute store result score #temp glcore run data get storage gl:bentenc select_playlist
+execute unless entity @s[x_rotation=90] run function bentenc:omnitrix_core/master_control/forward
+execute if entity @s[x_rotation=90] run function bentenc:omnitrix_core/master_control/backward
 
 item modify entity @s armor.head bentenc:storage_to_splaylist
-
-scoreboard players reset #temp glcore

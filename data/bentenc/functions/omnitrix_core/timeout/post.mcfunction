@@ -1,4 +1,4 @@
-execute unless predicate glcore:air_offhand unless predicate bentenc:ability_offhand_coa run function glcore:util/drop_offhand_item
+execute unless predicate glcore:air_offhand unless predicate bentenc:alien_offhand_coa run function glcore:util/drop_offhand_item
 item replace entity @s weapon.offhand with carrot_on_a_stick{HideFlags:63,Unbreakable:1b,bentenc:{is_omnitrix:1b}}
 item modify entity @s weapon.offhand bentenc:alien_to_omnitrix_recharge
 item modify entity @s weapon.offhand bentenc:set_not_cycling

@@ -21,7 +21,10 @@ scoreboard players set @s bentenc.cooldow2 0
 scoreboard players set @s bentenc.cooldow3 0
 scoreboard players set @s bentenc.cooldow4 0
 scoreboard players set @s bentenc.cooldow5 0
-scoreboard players set @s bentenc.skin 0
+execute unless data entity @s Inventory[{Slot:103b}].tag.bentenc.select_playlist[0].skin store result score @s bentenc.skin run data get entity @s Inventory[{Slot:103b}].tag.bentenc.omnitrix
+execute if data entity @s Inventory[{Slot:103b}].tag.bentenc.select_playlist[0].skin store result score @s bentenc.skin run data get entity @s Inventory[{Slot:103b}].tag.bentenc.select_playlist[0].skin
+execute if data entity @s Inventory[{Slot:103b}].tag.bentenc.select_playlist[0].alien.random run function bentenc:omnitrix_core/random/start
+execute if data entity @s Inventory[{Slot:103b}].tag.bentenc.select_playlist[0].alien_fusion.random run function bentenc:omnitrix_core/randomf/start
 
 item modify entity @s armor.head bentenc:set_select_playlist_
 
